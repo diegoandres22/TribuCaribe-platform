@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { NextUIProvider } from '@nextui-org/react';
+import { NextUIProvider } from "@nextui-org/react";
 
 export const metadata: Metadata = {
   title: "Tribu Caribe",
@@ -14,11 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body >
-
-        <NextUIProvider>
-          {children}
-        </NextUIProvider>
+      <body>
+        <NextUIProvider>{children}</NextUIProvider>
       </body>
     </html>
   );
