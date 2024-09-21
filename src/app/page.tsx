@@ -6,9 +6,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen w-full justify-center items-center">
-      <Button color="primary">
-        Button
-      </Button>
+      <a href="">Arcoiris</a>
     </div>
   );
 }
