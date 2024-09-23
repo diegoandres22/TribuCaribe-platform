@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { NextUIProvider } from "@nextui-org/react";
+import { Providers } from "@/redux/providers";
 
 export const metadata: Metadata = {
   title: "Tribu Caribe",
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
+      <Providers>
         <NextUIProvider>{children}</NextUIProvider>
+      </Providers>
       </body>
     </html>
   );
