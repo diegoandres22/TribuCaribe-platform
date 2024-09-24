@@ -6,12 +6,12 @@ interface AccordionProps {
 }
 
 export default function AccordionComponent({ className }: AccordionProps) {
-  const defaultContent = `Dulces`;
-
   return (
     <Accordion variant="light" className={` ${className ?? ""}`}>
       <AccordionItem key="1" aria-label="Accordion 1" title="Categorias">
-        <div className="h-96 w-80 rounded-3xl shadow-large  z-50 bg-white p-5"><Link href={"404"}>Dulces</Link></div>
+        <div className="h-96 w-80 rounded-3xl shadow-large  z-50 bg-white p-5">
+          <Link href={"404"}>Dulces</Link>
+        </div>
       </AccordionItem>
     </Accordion>
   );
