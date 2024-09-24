@@ -2,7 +2,7 @@ import { Input } from "@nextui-org/react";
 import React from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
-const SearchBar: React.FC = () => {
+export const SearchBar: React.FC = () => {
   return (
     <Input
       classNames={{
@@ -20,4 +20,4 @@ const SearchBar: React.FC = () => {
   );
 };
 
-export default SearchBar;
+

@@ -1,10 +1,10 @@
-import NavbarSection from "../../sections/s-inicio/NavbarSection";
+import { NavbarComponent } from "@/components/sections";
 import React from "react";
 
 const Inicio: React.FC = () => {
   return (
     <div>
-      <NavbarSection></NavbarSection>
+      <NavbarComponent></NavbarComponent>
     </div>
   );
 };

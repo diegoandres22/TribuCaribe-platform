@@ -5,7 +5,7 @@ interface AccordionProps {
   className?: string;
 }
 
-export default function AccordionComponent({ className }: AccordionProps) {
+export function AccordionComponent({ className }: AccordionProps) {
   return (
     <Accordion variant="light" className={` ${className ?? ""}`}>
       <AccordionItem key="1" aria-label="Accordion 1" title="Categorias">
