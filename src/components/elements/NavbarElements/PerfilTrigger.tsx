@@ -9,7 +9,7 @@ import {
 import { Avatar } from "@nextui-org/react";
 import Link from "next/link";
 
-const PerfilTrigger: React.FC = () => {
+export const PerfilTrigger: React.FC = () => {
   return (
     <div className="flex items-center gap-4">
       <Dropdown placement="bottom-end">
@@ -54,4 +54,4 @@ const PerfilTrigger: React.FC = () => {
   );
 };
 
-export default PerfilTrigger;
+

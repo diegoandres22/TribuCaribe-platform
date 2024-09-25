@@ -1,11 +1,8 @@
 "use client";
-import SearchBar from "@/components/elements/ReusableElements/SearchBar";
-import PerfilTrigger from "../../elements/NavbarElements/PerfilTrigger";
 import React from "react";
-import LogoWrapper from "@/components/elements/NavbarElements/LogoWrapper";
-import AccordionComponent from "@/components/elements/NavbarElements/AccordionComponent";
+import { LogoWrapper, PerfilTrigger, AccordionComponent, SearchBar } from '@/components/elements'
 
-const NavbarComponent = () => {
+export const NavbarComponent = () => {
   return (
     <div className="w-screen h-20 shadow-xl rounded-b-2xl fixed top-0 left-0 flex flex-col align-start justify-start hover:h-40 group duration-500  transition-all">
       <div className="w-screen h-20 absolute top-0 flex align-center justify-around  duration-500 transition-all ">
@@ -22,4 +19,4 @@ const NavbarComponent = () => {
   );
 };
 
-export default NavbarComponent;
+
