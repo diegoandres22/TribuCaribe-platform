@@ -6,9 +6,9 @@ export const SearchBar: React.FC = () => {
   return (
     <Input
       classNames={{
-        base: "max-w-full sm:max-w-[20rem] h-full flex aling-center justify-center ",
-        mainWrapper: "h-10 ",
-        input: "text-small ",
+        base: "max-w-full w-30 h-full flex aling-center justify-center",
+        mainWrapper: "h-10",
+        input: "text-small",
         inputWrapper:
           "h-10 font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20 rounded-3xl",
       }}
@@ -19,5 +19,3 @@ export const SearchBar: React.FC = () => {
     />
   );
 };
-
-

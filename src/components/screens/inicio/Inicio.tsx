@@ -1,10 +1,11 @@
-import { NavbarComponent } from "@/components/sections";
+import { NavbarComponent, BrandCarousel } from "@/components/sections";
 import React from "react";
 
 const Inicio: React.FC = () => {
   return (
-    <div>
+    <div className="w-screen h-auto relative min-h-screen">
       <NavbarComponent></NavbarComponent>
+      <BrandCarousel></BrandCarousel>
     </div>
   );
 };

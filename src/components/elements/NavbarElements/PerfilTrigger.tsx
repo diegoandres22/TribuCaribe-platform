@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import {
   Dropdown,
@@ -11,14 +10,14 @@ import Link from "next/link";
 
 export const PerfilTrigger: React.FC = () => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center aling-center justify-center w-16">
       <Dropdown placement="bottom-end">
         <DropdownTrigger>
           <Avatar
             isBordered
             color="secondary"
             as="button"
-            className="transition-transform"
+            className="transition-transform "
             src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
           />
         </DropdownTrigger>
@@ -53,5 +52,3 @@ export const PerfilTrigger: React.FC = () => {
     </div>
   );
 };
-
-
