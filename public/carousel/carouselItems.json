@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1,
+    "Image": "/carousel/Ferrero-logo_web.png",
+    "nombre": "Ferrero Rocher",
+    "url": "https://example.com/producto1"
+  },
+  {
+    "ID": 2,
+    "Image": "/carousel/Mondelez-Logo-1536x864.png",
+    "nombre": "Mondelez",
+    "url": "https://example.com/producto2"
+  },
+  {
+    "ID": 3,
+    "Image": "/carousel/Unilever-logo.jpg",
+    "nombre": "Unilever",
+    "url": "https://example.com/producto3"
+  },
+  {
+    "ID": 1,
+    "Image": "/carousel/Ferrero-logo_web.png",
+    "nombre": "Ferrero Rocher",
+    "url": "https://example.com/producto1"
+  },
+  {
+    "ID": 2,
+    "Image": "/carousel/Mondelez-Logo-1536x864.png",
+    "nombre": "Mondelez",
+    "url": "https://example.com/producto2"
+  },
+  {
+    "ID": 3,
+    "Image": "/carousel/Unilever-logo.jpg",
+    "nombre": "Unilever",
+    "url": "https://example.com/producto3"
+  },
+  {
+    "ID": 1,
+    "Image": "/carousel/Ferrero-logo_web.png",
+    "nombre": "Ferrero Rocher",
+    "url": "https://example.com/producto1"
+  },
+  {
+    "ID": 2,
+    "Image": "/carousel/Mondelez-Logo-1536x864.png",
+    "nombre": "Mondelez",
+    "url": "https://example.com/producto2"
+  },
+  {
+    "ID": 3,
+    "Image": "/carousel/Unilever-logo.jpg",
+    "nombre": "Unilever",
+    "url": "https://example.com/producto3"
+  },
+  {
+    "ID": 1,
+    "Image": "/carousel/Ferrero-logo_web.png",
+    "nombre": "Ferrero Rocher",
+    "url": "https://example.com/producto1"
+  },
+  {
+    "ID": 2,
+    "Image": "/carousel/Mondelez-Logo-1536x864.png",
+    "nombre": "Mondelez",
+    "url": "https://example.com/producto2"
+  },
+  {
+    "ID": 3,
+    "Image": "/carousel/Unilever-logo.jpg",
+    "nombre": "Unilever",
+    "url": "https://example.com/producto3"
+  }
+]
