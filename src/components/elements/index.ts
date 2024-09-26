@@ -7,7 +7,7 @@ export * from "./BrandCaruoselElements/GetImageOfBrand";
 
 //reusable elements
 export * from "./ReusableElements/SearchBar";
-export * from "./ReusableElements/Button";
+export * from "./ReusableElements/ButtonReusable";
 
 // auth elements
 

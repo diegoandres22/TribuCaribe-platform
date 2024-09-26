@@ -1,7 +1,7 @@
 import {
   PasswordInput,
   EmailInput,
-  Button,
+  ButtonReusable,
   ButtonLoginOrRegister,
   NameInput,
 } from "@/components/elements";
@@ -15,7 +15,7 @@ export const RegisterSection = () => {
         <EmailInput />
         <PasswordInput />
         <PasswordInput />
-        <Button color="text-white px-20" value="Registrarse" bg="bg-[#6100ff]" />
+        <ButtonReusable color="text-white px-20" value="Registrarse" bg="bg-[#6100ff]" />
       </div>
     </div>
   );

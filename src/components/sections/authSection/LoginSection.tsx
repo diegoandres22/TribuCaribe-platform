@@ -1,7 +1,7 @@
 import {
   PasswordInput,
   EmailInput,
-  Button,
+  ButtonReusable,
   ButtonLoginOrRegister,
 } from "@/components/elements";
 
@@ -12,7 +12,7 @@ export const LoginSection = () => {
       <div className="flex flex-col py-14 px-10 justify-center mt-24 w-[30rem] border-2 items-center rounded-lg shadow-2xl shadow-[#b18bf0]">
         <EmailInput />
         <PasswordInput />
-        <Button color="text-white px-20" value="Ingresar" bg="bg-[#6100ff]" />
+        <ButtonReusable color="text-white px-20" value="Ingresar" bg="bg-[#6100ff]" />
       </div>
     </div>
   );
