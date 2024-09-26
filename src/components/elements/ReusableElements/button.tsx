@@ -8,7 +8,7 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ value, bg, color, onClick }) => {
+export const Button: React.FC<ButtonProps> = ({ value, bg, color, onClick }) => {
   return (
     <div>
       <button
@@ -21,4 +21,4 @@ const Button: React.FC<ButtonProps> = ({ value, bg, color, onClick }) => {
   );
 };
 
-export default Button;
+
