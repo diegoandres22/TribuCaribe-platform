@@ -1,6 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { NextUIProvider } from "@nextui-org/react";
+import { Providers } from "@/redux/providers";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const metadata: Metadata = {
   title: "Tribu Caribe",
@@ -15,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <NextUIProvider>{children}</NextUIProvider>
+        <Providers>
+          <NextUIProvider>{children}</NextUIProvider>
+        </Providers>
       </body>
     </html>
   );
