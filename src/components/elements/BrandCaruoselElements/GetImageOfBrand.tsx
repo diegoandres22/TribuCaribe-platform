@@ -6,12 +6,13 @@ interface getImgProps {
   alt: string;
 }
 
-var absolute =
-  "absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-0";
-var ofPics =
-  "shadow-lg p-0 m-0 w-[100%] lg:hover:scale-75 transition-all duration-300 scale-80 lg:h-[200px] h-[100px] rounded-2xl outline-none";
-
 export const GetImageOfBrand: React.FC<getImgProps> = ({ src, alt }) => {
+  const absolute =
+    "absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-0";
+
+  const ofPics =
+    "shadow-lg p-0 m-0 w-[100%] lg:hover:scale-75 transition-all duration-300 scale-80 lg:h-[200px] h-[100px] rounded-2xl outline-none";
+
   return (
     <div className="relative h-[20vh] ">
       <div className=""></div>

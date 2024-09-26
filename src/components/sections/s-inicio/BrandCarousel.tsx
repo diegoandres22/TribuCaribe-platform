@@ -25,6 +25,7 @@ export const BrandCarousel = () => {
               <GetImageOfBrand
                 src={item.Image}
                 alt={item.nombre}
+                key={item.ID}
               ></GetImageOfBrand>
             ))}
           </Slider>
