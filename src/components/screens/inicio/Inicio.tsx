@@ -1,4 +1,8 @@
-import { NavbarComponent, BrandCarousel, AdvertisingCarousel } from "@/components/sections";
+import {
+  NavbarComponent,
+  BrandCarousel,
+  AdvertisingCarousel,
+} from "@/components/sections";
 import React from "react";
 
 const Inicio: React.FC = () => {

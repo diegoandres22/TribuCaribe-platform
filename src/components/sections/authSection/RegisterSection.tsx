@@ -15,7 +15,11 @@ export const RegisterSection = () => {
         <EmailInput />
         <PasswordInput />
         <PasswordInput />
-        <ButtonReusable color="text-white px-20" value="Registrarse" bg="bg-[#6100ff]" />
+        <ButtonReusable
+          color="text-white px-20"
+          value="Registrarse"
+          bg="bg-[#6100ff]"
+        />
       </div>
     </div>
   );

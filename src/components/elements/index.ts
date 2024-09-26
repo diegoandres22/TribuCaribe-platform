@@ -15,4 +15,4 @@ export * from "./AuthElements/ButtonLoginOrRegister";
 export * from "./AuthElements/PasswordInput";
 export * from "./AuthElements/EmailInput";
 export * from "./AuthElements/NameInput";
-export * from "./AdvertisingCarouselElements/GetImgAdvertising"
+export * from "./AdvertisingCarouselElements/GetImgAdvertising";

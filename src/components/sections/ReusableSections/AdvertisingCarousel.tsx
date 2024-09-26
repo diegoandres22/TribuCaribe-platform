@@ -21,9 +21,9 @@ export const AdvertisingCarousel = () => {
     afterChange: () => setIsDragging(false),
   };
 
-  const handleLinkClick = (e:React.MouseEvent<HTMLAnchorElement>) => {
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (isDragging) {
-      e.preventDefault(); 
+      e.preventDefault();
     }
   };
   return (
