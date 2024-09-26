@@ -30,11 +30,11 @@ export const AdvertisingCarousel = () => {
     <div className="w-scren h-auto flex justify-center align-center mt-40">
       <Slider {...settings} className="w-[40%]">
         {data.map((item) => (
-          <Link href={"404"} onClick={handleLinkClick}>
+          <Link href={"404"} onClick={handleLinkClick} key={item.ID}>
             <GetImgAdvertising
               src={item.Image}
               alt={item.nombre}
-              key={item.ID}
+              
             ></GetImgAdvertising>
           </Link>
         ))}
