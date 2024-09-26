@@ -6,7 +6,7 @@ export const SearchBar: React.FC = () => {
   return (
     <Input
       classNames={{
-        base: "max-w-full w-30 h-full flex aling-center justify-center",
+        base: "max-w-full lg:w-60 w-30 h-full flex aling-center justify-center",
         mainWrapper: "h-10",
         input: "text-small",
         inputWrapper:
