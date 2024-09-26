@@ -1,0 +1,26 @@
+[
+    {
+        "ID": 1,
+        "Image": "/advertisingCoruosel/Adult_hero_desktop-ar.jpg",
+        "nombre": "Ferrero Rocher",
+        "url": "https://example.com/producto1"
+    },
+    {
+        "ID": 2,
+        "Image": "/advertisingCoruosel/dog.jpg",
+        "nombre": "Mondelez",
+        "url": "https://example.com/producto2"
+    },
+    {
+        "ID": 3,
+        "Image": "/advertisingCoruosel/nike.jpg",
+        "nombre": "Unilever",
+        "url": "https://example.com/producto3"
+    },
+    {
+        "ID": 4,
+        "Image": "/advertisingCoruosel/nutella.jpg",
+        "nombre": "Ferrero Rocher",
+        "url": "https://example.com/producto1"
+    }
+]

@@ -5,3 +5,4 @@ export * from "./NavbarElements/PerfilTrigger";
 export * from "./ReusableElements/SearchBar";
 export * from "./BrandCaruoselElements/SliderContainer";
 export * from "./BrandCaruoselElements/GetImageOfBrand";
+export * from "./AdvertisingCarouselElements/GetImgAdvertising"

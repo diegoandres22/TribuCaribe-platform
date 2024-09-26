@@ -14,7 +14,7 @@ export const BrandCarousel = () => {
     arrows: false,
   };
   return (
-    <div className="w-screen h-96 relative top-40">
+    <div className="w-screen h-96 relative mt-40">
       <h2 className="lg:text-2xl font-bold lg:px-52 pt-10 px-10">
         Nuestras marcas
       </h2>
