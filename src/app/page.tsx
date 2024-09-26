@@ -1,4 +1,3 @@
-import Button from "@/components/elements/ReusableElements/button";
 import Inicio from "@/components/screens/inicio/Inicio";
 
 export default function Home() {
