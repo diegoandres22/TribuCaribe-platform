@@ -1,8 +1,5 @@
-import { LoginSection } from "@/components/sections"
-
+import { LoginSection } from "@/components/sections";
 
 export const LoginForm = () => {
-    return (
-        <LoginSection />
-    )
-}
+  return <LoginSection />;
+};

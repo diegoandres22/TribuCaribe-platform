@@ -9,10 +9,9 @@ export * from "./BrandCaruoselElements/GetImageOfBrand";
 export * from "./ReusableElements/SearchBar";
 export * from "./ReusableElements/Button";
 
-
 // auth elements
 
-export * from './AuthElements/ButtonLoginOrRegister'
-export * from './AuthElements/PasswordInput'
-export * from './AuthElements/EmailInput'
-export * from './AuthElements/NameInput'
+export * from "./AuthElements/ButtonLoginOrRegister";
+export * from "./AuthElements/PasswordInput";
+export * from "./AuthElements/EmailInput";
+export * from "./AuthElements/NameInput";

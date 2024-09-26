@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState, ReactNode } from "react";
 
 interface SliderContainerProps {
@@ -10,8 +10,9 @@ export const SliderContainer = ({ children }: SliderContainerProps) => {
 
   return (
     <div
-      className={`slider-container lg:w-[65%] w-[85%] lg:mt-20 mt-2 ${isGrabbing ? "cursor-grabbing" : "cursor-grab"
-        }`}
+      className={`slider-container lg:w-[65%] w-[85%] lg:mt-20 mt-2 ${
+        isGrabbing ? "cursor-grabbing" : "cursor-grab"
+      }`}
       onMouseDown={() => setIsGrabbing(true)}
       onMouseUp={() => setIsGrabbing(false)}
       onMouseLeave={() => setIsGrabbing(false)}

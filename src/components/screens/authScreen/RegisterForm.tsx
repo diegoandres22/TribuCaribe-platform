@@ -1,8 +1,5 @@
-import { RegisterSection } from "@/components/sections"
-
+import { RegisterSection } from "@/components/sections";
 
 export const RegisterForm = () => {
-    return (
-        <RegisterSection />
-    )
-}
+  return <RegisterSection />;
+};
