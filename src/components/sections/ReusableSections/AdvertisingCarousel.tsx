@@ -4,12 +4,14 @@ import Slider from "react-slick";
 import data from "../../../../public/advertisingCoruosel/advertisingCaruosel.json";
 import { GetImgAdvertising } from "@/components/elements";
 import Link from "next/link";
+import { useAppSelector } from "@/redux/hooks";
 
 export const AdvertisingCarousel = () => {
   const [isDragging, setIsDragging] = useState(false);
+  const isMobile = useAppSelector((state) => state.device.isMobile);
 
   const settings = {
-    dots: true,
+    dots: !isMobile,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -17,6 +19,8 @@ export const AdvertisingCarousel = () => {
     autoplaySpeed: 2500,
     pauseOnHover: true,
     cssEase: "ease-in-out",
+    arrows: false,
+
     beforeChange: () => setIsDragging(true),
     afterChange: () => setIsDragging(false),
   };
@@ -27,14 +31,13 @@ export const AdvertisingCarousel = () => {
     }
   };
   return (
-    <div className="w-scren h-auto flex justify-center align-center mt-40">
-      <Slider {...settings} className="w-[40%]">
+    <div className="w-scren h-36 lg:h-auto flex justify-center align-center lg:mt-40 mt-0 ">
+      <Slider {...settings} className={`w-[80%] lg:w-[40%] `}>
         {data.map((item) => (
           <Link href={"404"} onClick={handleLinkClick} key={item.ID}>
             <GetImgAdvertising
               src={item.Image}
               alt={item.nombre}
-              
             ></GetImgAdvertising>
           </Link>
         ))}
