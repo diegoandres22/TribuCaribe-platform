@@ -14,11 +14,11 @@ export const BrandCarousel = () => {
     arrows: false,
   };
   return (
-    <div className="w-screen h-auto lg:h-96 relative mt-40">
+    <div className="w-screen h-auto lg:h-96 relative lg:mt-96 mt-20">
       <h2 className="lg:text-2xl font-bold lg:px-52 pt-10 px-10">
         Nuestras marcas
       </h2>
-      <div className="w-screen flex justify-center align-center">
+      <div className="w-screen flex justify-center items-center">
         <SliderContainer>
           <Slider {...settings} className="rounded-3xl ">
             {data.map((item) => (
