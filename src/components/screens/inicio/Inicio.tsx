@@ -2,14 +2,16 @@ import {
   NavbarComponent,
   BrandCarousel,
   AdvertisingCarousel,
+  HotCategories,
 } from "@/components/sections";
 import React from "react";
 
 const Inicio: React.FC = () => {
   return (
-    <div className="w-screen h-auto relative min-h-screen">
+    <div className="w-screen h-auto relative min-h-screen flex flex-col justify-center align-center">
       <NavbarComponent></NavbarComponent>
       <BrandCarousel></BrandCarousel>
+      <HotCategories></HotCategories>
       <AdvertisingCarousel></AdvertisingCarousel>
     </div>
   );

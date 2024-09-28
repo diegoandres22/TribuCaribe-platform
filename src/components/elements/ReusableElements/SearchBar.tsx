@@ -8,7 +8,7 @@ export const SearchBar: React.FC = () => {
       classNames={{
         base: "max-w-full lg:w-60 w-30 h-full flex aling-center justify-center",
         mainWrapper: "h-10",
-        input: "text-small",
+        input: "text-medium",
         inputWrapper:
           "h-10 font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20 rounded-3xl",
       }}
