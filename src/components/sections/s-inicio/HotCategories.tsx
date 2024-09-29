@@ -38,7 +38,7 @@ export const HotCategories = () => {
     >
       <div className="slider-container bg-white h-auto md:w-[60%] w-[90%] rounded-3xl shadow-2xl relative p-4 lg:p-0">
         <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-end md:px-6 px-3">
-          <h2 className="md:text-xl  font-bold ">Categorías más buscadas</h2>
+          <h2 className="md:text-sm  font-bold ">Categorías más buscadas</h2>
           <FireAnimation className="-top-1 relative md:top-0" />
         </div>
         <Slider {...settings} className="w-full">
@@ -52,7 +52,7 @@ export const HotCategories = () => {
               >
                 <Link href={"404"} onClick={handleLinkClick}>
                   <div
-                    className={`lg:w-52 w-24 lg:h-52 h-24 bg-white md:shadow-2xl shadow-md rounded-3xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center flex-col lg:gap-5 text-center lg:hover:scale-95 transition-all duration-300`}
+                    className={`lg:w-52 w-24 lg:h-52 h-24 bg-white md:shadow-lg shadow-md rounded-3xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center flex-col lg:gap-5 text-center lg:hover:scale-95 transition-all duration-300`}
                     onMouseDown={(e) => {
                       e.preventDefault();
                     }}
