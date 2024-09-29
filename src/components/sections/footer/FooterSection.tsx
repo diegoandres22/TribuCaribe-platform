@@ -9,4 +9,3 @@ export const FooterComponent: React.FC = () => {
     </div>
   );
 };
- 
