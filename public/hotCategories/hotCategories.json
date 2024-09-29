@@ -1,26 +1,26 @@
 [
-    {
-        "ID": 1,
-        "Icon": "Cookie",
-        "nombre": "Galletas",
-        "url": "404"
-    },
-    {
-        "ID": 2,
-        "Icon": "Drink",
-        "nombre": "Bebidas",
-        "url": "404"
-    },
-    {
-        "ID": 3,
-        "Icon": "Vino",
-        "nombre": "Bebidas +18",
-        "url": "404"
-    },
-    {
-        "ID": 4,
-        "Icon": "Candy",
-        "nombre": "Caramelos y gomitas",
-        "url": "404"
-    }
+  {
+    "ID": 1,
+    "Icon": "Cookie",
+    "nombre": "Galletas",
+    "url": "404"
+  },
+  {
+    "ID": 2,
+    "Icon": "Drink",
+    "nombre": "Bebidas",
+    "url": "404"
+  },
+  {
+    "ID": 3,
+    "Icon": "Vino",
+    "nombre": "Bebidas +18",
+    "url": "404"
+  },
+  {
+    "ID": 4,
+    "Icon": "Candy",
+    "nombre": "Caramelos y gomitas",
+    "url": "404"
+  }
 ]
