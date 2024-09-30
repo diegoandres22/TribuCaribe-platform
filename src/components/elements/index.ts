@@ -20,3 +20,7 @@ export * from "./AdvertisingCarouselElements/GetImgAdvertising";
 // footer elements
 export * from "./FooterElements/TextFooter";
 export * from "./FooterElements/ImagesFooter";
+
+//MainBanner element
+export * from "./MainBannerElements/Arrows";
+export * from "./MainBannerElements/MainBannerMobile";

@@ -10,7 +10,7 @@ export const SliderContainer = ({ children }: SliderContainerProps) => {
 
   return (
     <div
-      className={`slider-container lg:w-[65%] w-[85%] lg:mt-20 mt-2 ${
+      className={`slider-container lg:w-[65%] w-[85%] lg:mt-0 mt-0 ${
         isGrabbing ? "cursor-grabbing" : "cursor-grab"
       }`}
       onMouseDown={() => setIsGrabbing(true)}

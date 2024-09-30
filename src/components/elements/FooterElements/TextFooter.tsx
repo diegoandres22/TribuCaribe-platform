@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const TextFooter: React.FC = () => {
   return (
-    <div className="flex flex-col items-start justify-start md:items-center md:justify-center">
-      <div className="w-full flex flex-col justify-start items-start text-sm md:text-base gap-2 md:justify-center md:items-center md:gap-3">
+    <div className="flex flex-col items-start justify-start md:items-center md:justify-center text-center">
+      <div className="w-full flex flex-col  text-sm md:text-base gap-2 md:justify-center md:items-center md:gap-3 text-center ">
         <p>Todos los derechos reservados por Tribu Caribe®</p>
         <p>
           Al comprar cualquiera de nuestros productos estas aceptando nuestros{" "}

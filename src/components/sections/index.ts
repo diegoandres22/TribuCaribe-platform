@@ -4,6 +4,7 @@
 export * from "./s-inicio/NavbarSection";
 export * from "./s-inicio/BrandCarousel";
 export * from "./s-inicio/HotCategories";
+export * from "./s-inicio/MainBanner";
 
 //login
 export * from "./authSection/LoginSection";

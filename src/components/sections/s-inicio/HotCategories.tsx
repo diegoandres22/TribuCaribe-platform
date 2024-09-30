@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useAppSelector } from "@/redux/hooks";
 
 export const HotCategories = () => {
-  const fatherDesktop = " md:mt-20 md:h-auto md:max:h-96 ";
+  const fatherDesktop = " md:mt-0 lg:mt-0 md:h-auto md:max:h-96";
   const [isDragging, setIsDragging] = useState(false);
   const iconMapping: Record<string, React.FC> = Icons;
   const isMobile = useAppSelector((state) => state.device.isMobile);
@@ -36,9 +36,9 @@ export const HotCategories = () => {
     <div
       className={`w-screen  ${fatherDesktop} flex justify-center items-center`}
     >
-      <div className="slider-container bg-white h-auto md:w-[60%] w-[90%] rounded-3xl shadow-2xl relative p-4 lg:p-0">
+      <div className="slider-container bg-white h-auto lg:w-[60%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 ">
         <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-end md:px-6 px-3">
-          <h2 className="md:text-sm  font-bold ">Categorías más buscadas</h2>
+          <h2 className="md:text-lg  font-bold ">Categorías más buscadas</h2>
           <FireAnimation className="-top-1 relative md:top-0" />
         </div>
         <Slider {...settings} className="w-full">
