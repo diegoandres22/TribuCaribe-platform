@@ -8,6 +8,7 @@ export * from "./BrandCaruoselElements/GetImageOfBrand";
 //reusable elements
 export * from "./ReusableElements/SearchBar";
 export * from "./ReusableElements/ButtonReusable";
+export * from "./ReusableElements/CardOfproduct";
 
 // auth elements
 
@@ -24,3 +25,6 @@ export * from "./FooterElements/ImagesFooter";
 //MainBanner element
 export * from "./MainBannerElements/Arrows";
 export * from "./MainBannerElements/MainBannerMobile";
+
+//LightningDeals
+export * from "./LightningDealsElements/ArrowsForLightningDeals";
