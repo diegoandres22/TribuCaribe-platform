@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useDragging } from "@/components/hooks/index";
 
 export const MainBannerDesktop = () => {
-  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {};
+  const handleLinkClick = () => {}; // e: React.MouseEvent<HTMLAnchorElement>
 
   const { onLinkClick, settings } = useDragging(handleLinkClick);
 
