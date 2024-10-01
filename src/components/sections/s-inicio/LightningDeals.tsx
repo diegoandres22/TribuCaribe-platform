@@ -43,7 +43,7 @@ export const LightningDeals = () => {
     <div
       className={`w-screen  ${fatherDesktop} flex justify-center items-center `}
     >
-      <div className="slider-container bg-white h-auto lg:w-[60%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 flex flex-col gap-9">
+      <div className="slider-container bg-white h-auto lg:w-[75%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 flex flex-col gap-9">
         <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-end md:px-6 px-3 ">
           <h2 className="md:text-lg  font-bold ">Ofertas relampago</h2>
           <ThunderAnimation className="top-0 relative md:top-0 w-5 h-5 mx-3" />

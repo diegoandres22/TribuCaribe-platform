@@ -36,7 +36,7 @@ export const HotCategories = () => {
     <div
       className={`w-screen  ${fatherDesktop} flex justify-center items-center`}
     >
-      <div className="slider-container bg-white h-auto lg:w-[60%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 ">
+      <div className="slider-container bg-white h-auto lg:w-[70%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 ">
         <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-end md:px-6 px-3">
           <h2 className="md:text-lg  font-bold ">Categorías más buscadas</h2>
           <FireAnimation className="-top-1 relative md:top-0" />
