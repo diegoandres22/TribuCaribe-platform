@@ -31,8 +31,9 @@ export const AdvertisingCarousel = () => {
     }
   };
   return (
-    <div className="w-scren h-36 md:h-auto flex justify-center align-center md:mt-40 mb-14 mt-0 ">
-      <Slider {...settings} className={`w-[80%] md:w-[40%] `}>
+    <div className="w-scren h-auto md:h-auto flex flex-col justify-center items-center md:mt-20 md:mb-14 mb-0 sm:mt-20 mt-5 ">
+      <div className="w-1/2 lg:w-1/4 h-[0.5px] bg-slate-500 rounded-full mb-1 md:mb-5"></div>
+      <Slider {...settings} className={`w-[90%] md:w-[80%] lg:w-[40%]`}>
         {data.map((item) => (
           <Link href={"404"} onClick={handleLinkClick} key={item.ID}>
             <GetImgAdvertising
