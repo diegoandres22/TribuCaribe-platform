@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 1,
+    "Image": "/picsOfTheMainBanner/loro.jpg",
+    "nombre": "Ferrero Rocher",
+    "url": "404"
+  },
+  {
+    "ID": 2,
+    "Image": "/PicsOfTheMainBanner/destaque_hersheys.jpg",
+    "nombre": "Mondelez",
+    "url": "404"
+  },
+  {
+    "ID": 3,
+    "Image": "/advertisingCoruosel/nike.jpg",
+    "nombre": "",
+    "url": "404"
+  }
+]

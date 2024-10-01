@@ -6,6 +6,7 @@ import Head from "next/head";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import DeviceDetector from "@/components/logicsFuntions/DeviceDetectorActions";
+import { FooterComponent, NavbarComponent } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "Tribu Caribe",
@@ -26,10 +27,14 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
       </Head>
-      <body>
+      <body className="overflow-x-hidden">
         <Providers>
           <DeviceDetector></DeviceDetector>
-          <NextUIProvider>{children}</NextUIProvider>
+          <NextUIProvider>
+            <NavbarComponent />
+            {children}
+            <FooterComponent />
+          </NextUIProvider>
         </Providers>
       </body>
     </html>

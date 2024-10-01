@@ -16,3 +16,11 @@ export * from "./AuthElements/PasswordInput";
 export * from "./AuthElements/EmailInput";
 export * from "./AuthElements/NameInput";
 export * from "./AdvertisingCarouselElements/GetImgAdvertising";
+
+// footer elements
+export * from "./FooterElements/TextFooter";
+export * from "./FooterElements/ImagesFooter";
+
+//MainBanner element
+export * from "./MainBannerElements/Arrows";
+export * from "./MainBannerElements/MainBannerMobile";

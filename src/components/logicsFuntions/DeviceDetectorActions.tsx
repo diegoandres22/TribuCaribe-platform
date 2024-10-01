@@ -9,8 +9,17 @@ const DeviceDetector = () => {
   useEffect(() => {
     const checkIfMobile = () => {
       const userAgent = navigator.userAgent;
-      const isMobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
+      const isMobile =
+        /iPhone|iPad|iPod|Android/i.test(userAgent) || window.innerWidth <= 720;
       dispatch(setDevice(isMobile));
+    };
+
+    const handleResize = () => {
+      if (window.innerWidth <= 720) {
+        dispatch(setDevice(true));
+      } else {
+        checkIfMobile();
+      }
     };
 
     const preventZoom = (e: TouchEvent) => {
@@ -20,10 +29,11 @@ const DeviceDetector = () => {
     };
 
     checkIfMobile();
-
+    window.addEventListener("resize", handleResize);
     document.addEventListener("touchmove", preventZoom, { passive: false });
 
     return () => {
+      window.removeEventListener("resize", handleResize);
       document.removeEventListener("touchmove", preventZoom);
     };
   }, [dispatch]);
