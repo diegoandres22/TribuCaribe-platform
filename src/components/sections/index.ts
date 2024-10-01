@@ -5,6 +5,7 @@ export * from "./s-inicio/NavbarSection";
 export * from "./s-inicio/BrandCarousel";
 export * from "./s-inicio/HotCategories";
 export * from "./s-inicio/MainBanner";
+export * from "./s-inicio/LightningDeals";
 
 //login
 export * from "./authSection/LoginSection";
