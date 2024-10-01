@@ -7,7 +7,8 @@ import data from "../../../../public/PicsOfTheMainBanner/MainBanner.json";
 import { useDragging } from "@/components/hooks";
 
 export const MainBannerMobile = () => {
-  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {};
+  // e: React.MouseEvent<HTMLAnchorElement>
+  const handleLinkClick = () => {};
 
   const { onLinkClick, settings } = useDragging(handleLinkClick);
 
@@ -22,6 +23,7 @@ export const MainBannerMobile = () => {
             href={item.url}
             className="relative w-screen h-40 sm:h-44"
             onClick={onLinkClick}
+            key={item.ID}
           >
             <div className="w-[90%] h-40 sm:h-44 flex justify-center items-center rounded-xl overflow-hidden absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
               <Image
