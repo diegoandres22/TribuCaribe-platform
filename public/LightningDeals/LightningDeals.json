@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "image": "/LightningDeals/kitkat_nuevo.png",
+    "name": "KitKat",
+    "percent": 5,
+    "price": 5,
+    "description": "esta es la descripcion del producto"
+  },
+  {
+    "ID": 2,
+    "image": "/LightningDeals/nutella-sun-moon1-2588468d1b4922.png",
+    "name": "Nutella",
+    "percent": 15,
+    "price": 7,
+    "description": "esta es la descripcion del producto"
+  },
+  {
+    "ID": 3,
+    "image": "/LightningDeals/producto3Barras-1000x1000.png",
+    "name": "Hershey`s",
+    "percent": 30,
+    "price": 2.5,
+    "description": "esta es la descripcion del producto"
+  },
+  {
+    "ID": 4,
+    "image": "/LightningDeals/CHD00033.jpg",
+    "name": "Chicles Addams",
+    "percent": 5,
+    "price": 1.5,
+    "description": "esta es la descripcion del producto"
+  },
+  {
+    "ID": 5,
+    "image": "/LightningDeals/D_Q_NP_888562-MLU79254909951_092.jpg",
+    "name": "Mayonesa kraft 360G",
+    "percent": 15,
+    "price": 7,
+    "description": "esta es la descripcion del producto"
+  },
+  {
+    "ID": 6,
+    "image": "/LightningDeals/flaquito.jpg",
+    "name": "Flaquito",
+    "percent": 30,
+    "price": 2.5,
+    "description": "esta es la descripcion del producto"
+  }
+]

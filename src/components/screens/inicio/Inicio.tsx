@@ -3,6 +3,7 @@ import {
   AdvertisingCarousel,
   HotCategories,
   MainBanner,
+  LightningDeals,
 } from "@/components/sections";
 import React from "react";
 
@@ -12,6 +13,7 @@ const Inicio: React.FC = () => {
       <MainBanner></MainBanner>
       <HotCategories></HotCategories>
       <BrandCarousel></BrandCarousel>
+      <LightningDeals></LightningDeals>
       <AdvertisingCarousel></AdvertisingCarousel>
     </div>
   );
