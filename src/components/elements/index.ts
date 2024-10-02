@@ -22,6 +22,8 @@ export * from "./AdvertisingCarouselElements/GetImgAdvertising";
 // footer elements
 export * from "./FooterElements/TextFooter";
 export * from "./FooterElements/ImagesFooter";
+export * from "./FooterElements/LinksFooter";
+export * from "./FooterElements/SocialNetworksFooter";
 
 //MainBanner element
 export * from "./MainBannerElements/Arrows";
