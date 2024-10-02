@@ -4,6 +4,7 @@ export * from "./NavbarElements/LogoWrapper";
 export * from "./NavbarElements/PerfilTrigger";
 export * from "./BrandCaruoselElements/SliderContainer";
 export * from "./BrandCaruoselElements/GetImageOfBrand";
+export * from "./DealsElements/CardOfDeals";
 
 //reusable elements
 export * from "./ReusableElements/SearchBar";
