@@ -7,7 +7,7 @@ import animationDataDeals from "../../../../public/Animations/Deals.json";
 //cambiar a morado ./../../../../public/Animations/purple.json
 //cambiar a fucsia ./../../../../public\Animations\Animation - 1727540016971.json
 // ---------------------------------
-import { useAppSelector } from "@/redux/hooks";
+
 
 interface StyleScreenProps {
   className?: string;

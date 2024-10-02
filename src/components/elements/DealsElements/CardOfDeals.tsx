@@ -29,7 +29,6 @@ export const CardOfDeals: React.FC<CardOfDealsProps> = ({
       <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black via-black/70 to-transparent w-full">
         <div className="flex items-center  h-20 gap-2 justify-center">
           <div className=" h-auto w-1/4 bg-white  rounded-md p-2">
-            {/* Aquí puedes pasar un logo si es necesario */}
             <img
               src={ImageBrand}
               alt={brand}
