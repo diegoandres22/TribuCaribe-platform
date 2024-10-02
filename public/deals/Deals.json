@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "imageSrc": "/deals/0hwbsQTjn_1256x620__1.png",
+    "discount": "30",
+    "brand": "Mondelez",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de Mondelez",
+    "ImageBrand": "/deals/Brands/7HqUJCdLXPHvNtXtTUUOxpdkcAkfif9v.png"
+  },
+  {
+    "ID": 2,
+    "imageSrc": "/deals/Berlin_-_Kurfürstendamm_193-194.png",
+    "discount": "10",
+    "brand": "versace",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de veracce",
+    "ImageBrand": "/deals/Brands/versace.jpg"
+  },
+  {
+    "ID": 3,
+    "imageSrc": "/deals/Nestle.png",
+    "discount": "5",
+    "brand": "Nestle",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de Nestle",
+    "ImageBrand": "deals/Brands/202202021105290823-nestlelogo-wi.png"
+  },
+  {
+    "ID": 4,
+    "imageSrc": "/deals/0hwbsQTjn_1256x620__1.png",
+    "discount": "30",
+    "brand": "Mondelez",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de Mondelez",
+    "ImageBrand": "/deals/Brands/7HqUJCdLXPHvNtXtTUUOxpdkcAkfif9v.png"
+  },
+  {
+    "ID": 5,
+    "imageSrc": "/deals/Berlin_-_Kurfürstendamm_193-194.png",
+    "discount": "10",
+    "brand": "versace",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de veracce",
+    "ImageBrand": "/deals/Brands/versace.jpg"
+  },
+  {
+    "ID": 6,
+    "imageSrc": "/deals/Nestle.png",
+    "discount": "5",
+    "brand": "Nestle",
+    "description": "Esta es la descripcion generade por Supermaven en la tienda de Nestle",
+    "ImageBrand": "deals/Brands/202202021105290823-nestlelogo-wi.png"
+  }
+]
