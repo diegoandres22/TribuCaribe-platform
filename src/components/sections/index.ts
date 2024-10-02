@@ -16,3 +16,7 @@ export * from "./ReusableSections/AdvertisingCarousel";
 
 //footer
 export * from "./footer/FooterSection";
+
+// Product Detail
+export * from "./ProductDetailSection/ProductInfoSection";
+export * from "./ProductDetailSection/ProductActionSection";
