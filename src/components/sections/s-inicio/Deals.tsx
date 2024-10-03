@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Slider from "react-slick";
 import data from "./../../../../public/deals/Deals.json";
 import { useAppSelector } from "@/redux/hooks";

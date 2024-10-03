@@ -1,6 +1,6 @@
 "use client";
 import { ThunderAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
 import { useAppSelector } from "@/redux/hooks";
