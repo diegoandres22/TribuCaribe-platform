@@ -1,44 +1,21 @@
-"use client";
-import React, { useState } from "react";
+"use client"
 import Slider from "react-slick";
 import data from "./../../../../public/deals/Deals.json";
 import { useAppSelector } from "@/redux/hooks";
 import Link from "next/link";
 import { DealsAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
-import {
-  SampleNextArrowsForLightningDeals,
-  SamplePrevArrowsForLightningDeals,
-} from "@/components/elements/index";
 import { CardOfDeals } from "@/components/elements/index";
+import { useArrowControl } from "@/components/hooks";
 
 export const Deals = () => {
   const fatherDesktop = "mt-0 md:mt-10 lg:mt-0 md:h-auto md:max:h-96";
-  const [isDragging, setIsDragging] = useState(false);
   const isMobile = useAppSelector((state) => state.device.isMobile);
   const items = isMobile ? 1 : 3;
 
-  const settings = {
-    dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: items,
-    slidesToScroll: 1,
-    arrows: !isMobile,
-    autoplay: false,
-    draggable: isMobile ? true : false,
-    beforeChange: () => setIsDragging(true),
-    afterChange: () => setIsDragging(false),
-    nextArrow: !isMobile ? (
-      <SampleNextArrowsForLightningDeals style={{ background: "#000" }} />
-    ) : undefined,
-    prevArrow: !isMobile ? <SamplePrevArrowsForLightningDeals /> : undefined,
-  };
-
-  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (isDragging) {
-      e.preventDefault();
-    }
-  };
+  const { settings, handleLinkClick } = useArrowControl({
+    totalSlides: data.length,
+    itemsToShow: items,
+  });
 
   return (
     <div
