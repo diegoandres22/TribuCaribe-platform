@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        ColorBrandPrimary: "var(--VarViolet600)",
+        ColorTextGrey: "var(--textGrey)",
       },
     },
   },

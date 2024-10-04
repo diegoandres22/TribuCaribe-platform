@@ -31,3 +31,6 @@ export * from "./MainBannerElements/MainBannerMobile";
 
 //LightningDeals
 export * from "./LightningDealsElements/ArrowsForLightningDeals";
+
+//Stars
+export * from "./ReusableElements/Stars";
