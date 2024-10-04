@@ -8,7 +8,6 @@ import animationDataDeals from "../../../../public/Animations/Deals.json";
 //cambiar a fucsia ./../../../../public\Animations\Animation - 1727540016971.json
 // ---------------------------------
 
-
 interface StyleScreenProps {
   className?: string;
 }
