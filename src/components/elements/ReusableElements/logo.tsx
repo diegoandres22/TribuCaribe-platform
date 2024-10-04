@@ -1,10 +1,8 @@
 import React from "react";
 import Image from "next/image";
-interface logoProps {
-  className?: string;
-}
+import { OnlyClassNameProps } from "@/types";
 
-const Logo: React.FC<logoProps> = ({ className }) => {
+const Logo: React.FC<OnlyClassNameProps> = ({ className }) => {
   return (
     <Image
       src="/logo_no_white.png"

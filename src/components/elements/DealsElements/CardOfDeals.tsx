@@ -1,12 +1,5 @@
 import Image from "next/image";
-
-interface CardOfDealsProps {
-  imageSrc: string;
-  discount: string;
-  brand: string;
-  description: string;
-  ImageBrand: string;
-}
+import { CardOfDealsProps } from "@/types/index";
 
 export const CardOfDeals: React.FC<CardOfDealsProps> = ({
   imageSrc,

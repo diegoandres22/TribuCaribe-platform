@@ -8,7 +8,9 @@ export const Stars: React.FC<StarsProps> = ({ rating, maxStars = 5 }) => {
       {Array.from({ length: maxStars }, (_, index) => (
         <LiaStarSolid
           key={index}
-          className={index < rating ? "text-ColorBrandPrimary" : "text-ColorTextGrey"}
+          className={
+            index < rating ? "text-ColorBrandPrimary" : "text-ColorTextGrey"
+          }
         />
       ))}
     </div>
