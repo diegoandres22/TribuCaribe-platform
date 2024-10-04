@@ -1,3 +1,3 @@
-export interface  OnlyClassNameProps{
-    className?: string;
-  }
+export interface OnlyClassNameProps {
+  className?: string;
+}

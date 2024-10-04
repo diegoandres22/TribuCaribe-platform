@@ -6,8 +6,6 @@ import {
 } from "../elements";
 import { useArrowControlProps } from "@/types";
 
-
-
 export const useArrowControl = ({
   totalSlides,
   itemsToShow = 4,
