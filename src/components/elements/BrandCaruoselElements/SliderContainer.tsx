@@ -1,11 +1,8 @@
 "use client";
-import { useState, ReactNode } from "react";
+import { OnlyChildrenProps } from "@/types/index";
+import { useState } from "react";
 
-interface SliderContainerProps {
-  children: ReactNode;
-}
-
-export const SliderContainer = ({ children }: SliderContainerProps) => {
+export const SliderContainer = ({ children }: OnlyChildrenProps) => {
   const [isGrabbing, setIsGrabbing] = useState(false);
 
   return (

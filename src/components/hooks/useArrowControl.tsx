@@ -4,13 +4,9 @@ import {
   SampleNextArrowsForLightningDeals,
   SamplePrevArrowsForLightningDeals,
 } from "../elements";
+import { useArrowControlProps } from "@/types";
 
-interface useArrowControlProps {
-  totalSlides: number;
-  itemsToShow?: number;
-  autoplay?: boolean;
-  speed?: number;
-}
+
 
 export const useArrowControl = ({
   totalSlides,
