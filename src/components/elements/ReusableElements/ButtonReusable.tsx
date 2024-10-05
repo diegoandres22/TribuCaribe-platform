@@ -1,12 +1,6 @@
 "use client";
+import { ButtonProps } from "@/types";
 import React from "react";
-
-interface ButtonProps {
-  value: string;
-  bg: string;
-  color: string;
-  onClick?: () => void;
-}
 
 export const ButtonReusable: React.FC<ButtonProps> = ({
   value,
