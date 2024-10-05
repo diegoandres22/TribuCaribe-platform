@@ -3,7 +3,7 @@ import React from "react";
 export const ProductActionSection = () => {
   return (
     <div>
-      <h1>soy acciones</h1>
+      <div className="w-20 h-20 bg-slate-700"></div>
     </div>
   );
 };

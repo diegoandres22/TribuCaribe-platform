@@ -34,3 +34,6 @@ export * from "./LightningDealsElements/ArrowsForLightningDeals";
 
 //Stars
 export * from "./ReusableElements/Stars";
+
+//Heart Favorites
+export * from "./ReusableElements/HeartFavorites";
