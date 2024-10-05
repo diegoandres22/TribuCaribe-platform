@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { HeartFavorites, Stars } from "@/components/elements/";
+import { HeartFavorites } from "@/components/elements/";
 import { ProductTitleAndImageSectionProps } from '@/types';
 import { Share } from '@/components/elements/ReusableElements/Share';
 
