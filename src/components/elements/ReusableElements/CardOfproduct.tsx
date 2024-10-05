@@ -1,16 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { PiSealPercentFill } from "react-icons/pi";
+import { productsProps } from "@/types/index";
 
-interface prodectsProps {
-  image: string;
-  name: string;
-  percent?: number;
-  price: number;
-  description: string;
-}
-
-export const CardOfproduct: React.FC<prodectsProps> = ({
+export const CardOfproduct: React.FC<productsProps> = ({
   image,
   name,
   percent,

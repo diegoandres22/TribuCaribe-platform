@@ -1,11 +1,8 @@
+import { OnlyClassNameProps } from "@/types";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import Link from "next/link";
 
-interface AccordionProps {
-  className?: string;
-}
-
-export function AccordionComponent({ className }: AccordionProps) {
+export function AccordionComponent({ className }: OnlyClassNameProps) {
   return (
     <Accordion variant="light" className={` ${className ?? ""}`}>
       <AccordionItem

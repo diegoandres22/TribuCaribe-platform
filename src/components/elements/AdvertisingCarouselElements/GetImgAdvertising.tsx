@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-interface getImgProps {
-  src: string;
-  alt: string;
-}
+import { getImgProps } from "@/types";
 
 export const GetImgAdvertising: React.FC<getImgProps> = ({ src, alt }) => {
   const absolute =
