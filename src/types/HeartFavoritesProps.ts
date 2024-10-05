@@ -1,3 +1,4 @@
 export interface HeartFavoritesProps {
-    isFavorite: boolean;
+  isFavorite: boolean;
+  onClick?: () => void;
 }
