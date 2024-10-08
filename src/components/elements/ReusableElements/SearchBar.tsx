@@ -1,8 +1,16 @@
+"use client";
+import { Search } from "@/components/logicsFuntions/Search";
 import { Input } from "@nextui-org/react";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 export const SearchBar: React.FC = () => {
+  const inputRef = React.useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    window.addEventListener("keypress", (e) => Search(e, inputRef));
+  }, []);
+
   return (
     <Input
       classNames={{
@@ -14,7 +22,8 @@ export const SearchBar: React.FC = () => {
       }}
       placeholder="Buscar..."
       size="sm"
-      startContent={<FaMagnifyingGlass />}
+      startContent={<FaMagnifyingGlass cursor={"pointer"} />}
+      ref={inputRef}
       type="search"
     />
   );

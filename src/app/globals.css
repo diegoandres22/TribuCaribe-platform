@@ -6,6 +6,13 @@
 :root {
   --background: #f1f1f1;
   --foreground: #000000;
+  --textGrey: #a3a3a3;
+  --VarViolet600: #7c3aed;
+  --VarViolet700: #6d28d9;
+  --VarViolet800: #5b21b6;
+  --VarPurple600: #9333ea;
+  --VarPurple700: #7e22ce;
+  --VarPurple800: #ffffff;
 }
 
 html,

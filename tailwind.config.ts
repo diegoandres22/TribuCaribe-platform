@@ -16,9 +16,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        ColorBrandPrimary: "var(--VarViolet600)",
+        ColorTextGrey: "var(--textGrey)",
+        bagwite : "var(--VarPurple800)"
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [nextui(), require("@tailwindcss/aspect-ratio")],
 };
 export default config;
