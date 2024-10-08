@@ -34,7 +34,7 @@ export const LightningDeals = () => {
                 key={item.ID}
                 className={`rounded-3xl relative lg:p-32  p-14 lg:h-96 h-48`}
               >
-                <Link href={"404"} onClick={handleLinkClick}>
+                <Link href={"/product/1"} onClick={handleLinkClick}>
                   <CardOfproduct
                     image={item.image}
                     name={item.name}

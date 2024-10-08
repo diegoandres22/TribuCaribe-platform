@@ -37,3 +37,10 @@ export * from "./ReusableElements/Stars";
 
 //Heart Favorites
 export * from "./ReusableElements/HeartFavorites";
+
+//Details of product
+export * from "./ProductDetailElements/Price";
+export * from "./ProductDetailElements/Priceperquantity";
+export * from "./ProductDetailElements/Stock";
+export * from "./ProductDetailElements/Variants";
+

@@ -21,9 +21,9 @@ export const ProductTitleAndImageSection: React.FC<ProductTitleAndImageSectionPr
   }
 
   return (
-    <div className="flex flex-col w-full lg:w-[60vw] justify-center m-auto">
+    <div className="flex flex-col w-full lg:w-[50vw] justify-center m-auto ">
 
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         <h2 className="text-lg">{title}</h2>
         <div className="flex justify-between items-center">
           <p className="text-xs">

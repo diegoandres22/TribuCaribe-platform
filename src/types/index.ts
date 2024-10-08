@@ -9,6 +9,10 @@ export * from "./HeartFavoritesProps";
 export * from "./ProductTitleAndImageSectionProps";
 
 
+//Props Variantes
+export * from "./VariantesProps";
+
+
 //OnClick para botones
 export * from "./OnClick";
 export * from "./StarsProps";
