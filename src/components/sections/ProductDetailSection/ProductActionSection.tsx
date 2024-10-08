@@ -1,4 +1,4 @@
-import { Price, Priceperquantity, Stock, Variants } from "@/components/elements";
+import { CantityOfProduct, Price, Priceperquantity, Stock, Variants } from "@/components/elements";
 import { Divider } from "@nextui-org/react";
 import React from "react";
 
@@ -29,6 +29,7 @@ export const ProductActionSection = () => {
       <Price priceInDollars={12} />
       <Stock></Stock>
       <Variants variantes={productoVariantes} />
+      <CantityOfProduct max={1000}/>
     </div>
   );
 };
