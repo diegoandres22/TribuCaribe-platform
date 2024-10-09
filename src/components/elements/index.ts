@@ -44,4 +44,6 @@ export * from "./ProductDetailElements/Priceperquantity";
 export * from "./ProductDetailElements/Stock";
 export * from "./ProductDetailElements/Variants";
 export * from "./ReusableElements/CantityOfProduct";
+export * from "./ProductDetailElements/Buttons";
+export * from "./ReusableElements/TermsAndCondit";
 
