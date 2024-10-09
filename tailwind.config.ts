@@ -18,7 +18,10 @@ const config: Config = {
         foreground: "var(--foreground)",
         ColorBrandPrimary: "var(--VarViolet600)",
         ColorTextGrey: "var(--textGrey)",
-        bagwite : "var(--VarPurple800)"
+        bagwite: "var(--VarPurple800)",
+      },
+      lineHeight: {
+        "tight-mobile": "1.2", // Espaciado personalizado para móviles
       },
     },
   },

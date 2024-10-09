@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import DeviceDetector from "@/components/logicsFuntions/DeviceDetectorActions";
 import { FooterComponent, NavbarComponent } from "@/components/sections";
+import { ClientNotistack } from "@/components/hooks/ClientNotiStack";
 
 export const metadata: Metadata = {
   title: "Tribu Caribe",
@@ -31,9 +32,12 @@ export default function RootLayout({
         <Providers>
           <DeviceDetector></DeviceDetector>
           <NextUIProvider>
-            <NavbarComponent />
-            {children}
-            <FooterComponent />
+            <ClientNotistack >
+              <NavbarComponent />
+              {children}
+              <FooterComponent />
+
+            </ClientNotistack>
           </NextUIProvider>
         </Providers>
       </body>
