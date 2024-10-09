@@ -1,6 +1,6 @@
-import { CantityOfProduct, Price, Priceperquantity, Stock, Variants } from "@/components/elements";
-import { Divider } from "@nextui-org/react";
 import React from "react";
+import { Buttons, CantityOfProduct, Price, Priceperquantity, Stock, TermsAndCondit, Variants } from "@/components/elements";
+import { Divider } from "@nextui-org/react";
 
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
 
@@ -18,7 +18,7 @@ export const ProductActionSection = () => {
   ];
 
   return (
-    <div className="lg:sticky lg:top-20 lg:pt-4 lg:rounded-xl lg:shadow-large">
+    <div className="lg:sticky lg:top-20 lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto">
 
       <Priceperquantity prices={priceData} />
 
@@ -29,7 +29,9 @@ export const ProductActionSection = () => {
       <Price priceInDollars={12} />
       <Stock></Stock>
       <Variants variantes={productoVariantes} />
-      <CantityOfProduct max={1000}/>
+      <CantityOfProduct max={1000} />
+      <Buttons />
+      <TermsAndCondit/>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { HeartFavorites } from "@/components/elements/";
 import { ProductTitleAndImageSectionProps } from '@/types';
 import { Share } from '@/components/elements/ReusableElements/Share';
+import { closeSnackbar, enqueueSnackbar, SnackbarKey } from 'notistack';
 
 export const ProductTitleAndImageSection: React.FC<ProductTitleAndImageSectionProps> = ({
   title,
@@ -13,11 +14,26 @@ export const ProductTitleAndImageSection: React.FC<ProductTitleAndImageSectionPr
   imageAlt,
   isFavorite
 }) => {
-  function handleShare(): void {
-    alert("Hola pipe, seguro querés compartir esto? ")
+
+  const shar = 'La publicación ha sido publicada en tu muro de facebook'
+  const Favorites = 'Producto agregado a Favoritos'
+
+  const action = (snackbarId: SnackbarKey | undefined) => (
+    <>
+
+      <button className='text-lg font-bold text-red-500' onClick={() => { closeSnackbar(snackbarId) }}>
+        Deshacer
+      </button>
+    </>
+  );
+
+  const handleShare = () => {
+    return enqueueSnackbar(shar, { variant: 'success' })
   }
-  function handleFavorite(): void {
-    alert("Hola pipe, Te gustó mucho esto? ")
+  const handleFavorite = () => {
+    enqueueSnackbar(Favorites, {
+      action,
+    })
   }
 
   return (
