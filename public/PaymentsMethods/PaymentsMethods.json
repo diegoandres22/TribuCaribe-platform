@@ -1,0 +1,45 @@
+[
+    {
+      "ID": 1,
+      "Image": "/PaymentsMethods/amex.png",
+      "nombre": "Amex",
+      "url": "404"
+    },
+    {
+      "ID": 2,
+      "Image": "/PaymentsMethods/visa.png",
+      "nombre": "Mondelez",
+      "url": "404"
+    },
+    {
+      "ID": 3,
+      "Image": "/PaymentsMethods/master.png",
+      "nombre": "",
+      "url": "404"
+    },
+    {
+      "ID": 4,
+      "Image": "/PaymentsMethods/maestro.png",
+      "nombre": "",
+      "url": "404"
+    },
+    {
+      "ID": 5,
+      "Image": "/PaymentsMethods/binance2.png",
+      "nombre": "",
+      "url": "404"
+    },
+    {
+      "ID": 6,
+      "Image": "/PaymentsMethods/binance.png",
+      "nombre": "",
+      "url": "404"
+    }    ,
+    {
+      "ID": 7,
+      "Image": "/PaymentsMethods/wu.png",
+      "nombre": "wester union",
+      "url": "404"
+    }
+  ]
+  

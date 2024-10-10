@@ -1,5 +1,5 @@
 import React from "react";
-import { Buttons, CantityOfProduct, Price, Priceperquantity, Stock, TermsAndCondit, Variants } from "@/components/elements";
+import { Buttons, CantityOfProduct, PaymentsMetods, Price, Priceperquantity, Stock, TermsAndCondit, Variants } from "@/components/elements";
 import { Divider } from "@nextui-org/react";
 
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
@@ -18,7 +18,7 @@ export const ProductActionSection = () => {
   ];
 
   return (
-    <div className="lg:sticky lg:top-20 lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto">
+    <div className="lg:sticky lg:top-20 lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto ">
 
       <Priceperquantity prices={priceData} />
 
@@ -32,6 +32,7 @@ export const ProductActionSection = () => {
       <CantityOfProduct max={1000} />
       <Buttons />
       <TermsAndCondit/>
+      <PaymentsMetods/>
     </div>
   );
 };
