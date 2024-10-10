@@ -31,14 +31,58 @@ export const ProductDetailScreen = () => {
             imageAlt={"kit kat"}
             isFavorite={true}
           />
+          <ProductInfoSection />
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection />
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection />
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection />
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
+          <ProductInfoSection></ProductInfoSection>
         </div>
 
-        <div className="lg:w-[25%]">
+        <div className="lg:w-[25%] ">
           <ProductActionSection />
         </div>
       </div>
 
-      <ProductInfoSection />
+
     </div>
   );
 };
