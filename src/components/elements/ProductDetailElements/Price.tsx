@@ -1,5 +1,5 @@
-import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/react";
-import React from "react";
+import {Popover, PopoverContent, PopoverTrigger } from '@nextui-org/react';
+import React from 'react';
 import { CiCircleQuestion } from "react-icons/ci";
 
 interface PriceProps {
@@ -17,23 +17,24 @@ export const Price: React.FC<PriceProps> = ({ priceInDollars }) => {
         <sup className="text-xs top-1 ml-1">80</sup>
         <Popover placement="right">
           <PopoverTrigger>
-            <CiCircleQuestion className="mx-2 text-xl text-blue-600" />
+            <CiCircleQuestion className='mx-2 text-xl text-blue-600' />
           </PopoverTrigger>
           <PopoverContent>
             <div className="px-2 py-2">
               <div className="text-small font-bold">Tasa de cambio</div>
               <div className="text-tiny">
-                La tasa de cambio utilizada es de <strong>36 Bs.</strong> por
-                cada dólar.
+                La tasa de cambio utilizada es de <strong>36 Bs.</strong> por cada dólar.
                 <br />
                 Fuente: Banco Central de Venezuela (BCV)
+
               </div>
             </div>
           </PopoverContent>
         </Popover>
+
       </div>
       <div className="text-sm text-gray-500">
-        Bs. {priceInBolivars.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+        Bs. {priceInBolivars.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
       </div>
     </div>
   );

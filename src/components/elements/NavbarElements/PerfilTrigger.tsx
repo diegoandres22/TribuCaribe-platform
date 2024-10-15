@@ -23,29 +23,29 @@ export const PerfilTrigger: React.FC = () => {
         </DropdownTrigger>
         <DropdownMenu aria-label="Profile Actions" variant="flat">
           <DropdownItem key="profile" className="h-14 gap-2">
-            <p className="font-semibold">Usuario</p>
+            <p className="font-semibold">Signed in as</p>
             <p className="font-semibold">zoey@example.com</p>
           </DropdownItem>
           <DropdownItem key="Mi cuenta">
-            <Link href={"/account/profile"}>Perfil</Link>
+            <Link href={"404"}>Mi cuenta</Link>
           </DropdownItem>
           <DropdownItem key="perfil">
-            <Link href={"404"}>Compras</Link>
+            <Link href={"404"}>Perfil</Link>
           </DropdownItem>
           <DropdownItem key="creditos">
-            <Link href={"404"}>Preferencias</Link>
+            <Link href={"404"}>Creditos</Link>
           </DropdownItem>
           <DropdownItem key="contrseña">
-            <Link href={"404"}>Carrito</Link>
+            <Link href={"404"}>Contraseña</Link>
           </DropdownItem>
           <DropdownItem key="favoritos">
             <Link href={"404"}>Favoritos</Link>
           </DropdownItem>
           <DropdownItem key="carrito">
-            <Link href={"404"}>Contraseña</Link>
+            <Link href={"404"}>Carrito</Link>
           </DropdownItem>
           <DropdownItem key="logout" color="danger">
-            Cerrar sesión
+            Cerrar sesion
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>

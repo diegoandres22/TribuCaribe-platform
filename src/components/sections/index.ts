@@ -21,9 +21,3 @@ export * from "./footer/FooterSection";
 export * from "./ProductDetailSection/ProductInfoSection";
 export * from "./ProductDetailSection/ProductActionSection";
 export * from "./ProductDetailSection/ProductTitleAndImageSection";
-
-//Profile
-export * from "./accountSection/profileSection/LogoSection";
-export * from "./accountSection/profileSection/InformationSection";
-export * from "./accountSection/profileSection/LocationSection";
-export * from "./accountSection/profileSection/VerifyEmailSection";

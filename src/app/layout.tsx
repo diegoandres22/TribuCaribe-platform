@@ -32,10 +32,11 @@ export default function RootLayout({
         <Providers>
           <DeviceDetector></DeviceDetector>
           <NextUIProvider>
-            <ClientNotistack>
+            <ClientNotistack >
               <NavbarComponent />
               {children}
               <FooterComponent />
+
             </ClientNotistack>
           </NextUIProvider>
         </Providers>
