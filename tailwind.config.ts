@@ -12,7 +12,6 @@ const config: Config = {
     extend: {
       boxShadow: {
         up: "0 -4px 30px -1px rgba(0, 0, 0, 0.2), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)",
-        down: "0 4px 30px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
       },
       colors: {
         background: "var(--background)",
