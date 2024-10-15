@@ -17,7 +17,11 @@ const initialState: ProfileState = {
 const profileSlice = createSlice({
   name: "profile",
   initialState,
-  reducers: {},
+  reducers: {
+    funcionEjemplo: () => {
+      //    state, action
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getProfile.pending, (state) => {
@@ -35,6 +39,6 @@ const profileSlice = createSlice({
   },
 });
 
-export const {} = profileSlice.actions;
+export const {funcionEjemplo} = profileSlice.actions;
 
 export default profileSlice.reducer;
