@@ -18,8 +18,8 @@ const profileSlice = createSlice({
   name: "profile",
   initialState,
   reducers: {
-    funcionEjemploo: (state) => {
-      state.loading = false
+    funcionEjemplo: () => {
+      //    state, action
     },
   },
   extraReducers: (builder) => {
@@ -39,6 +39,6 @@ const profileSlice = createSlice({
   },
 });
 
-export const { funcionEjemploo } = profileSlice.actions;
+export const {funcionEjemplo} = profileSlice.actions;
 
 export default profileSlice.reducer;
