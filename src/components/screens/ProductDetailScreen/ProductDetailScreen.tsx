@@ -16,13 +16,14 @@ export const ProductDetailScreen = () => {
       <div className="flex flex-col lg:flex-row justify-center">
         {/* Sección de Título e Imagen */}
         <div className="flex flex-col lg:w-[60%] lg:rounded-xl lg:shadow-large lg:py-2 ">
-          <div className="flex justify-end items-center lg:mr-8
-          ">
+          <div
+            className="flex justify-end items-center lg:mr-8
+          "
+          >
             <Link href="#">
               <Stars rating={2} />
               <p className="text-xs text-ColorTextGrey">(8)</p>
             </Link>
-
           </div>
           <ProductTitleAndImageSection
             title={"Kit Kat 90gr"}
@@ -81,9 +82,6 @@ export const ProductDetailScreen = () => {
           <ProductActionSection />
         </div>
       </div>
-
-
     </div>
   );
 };
-
