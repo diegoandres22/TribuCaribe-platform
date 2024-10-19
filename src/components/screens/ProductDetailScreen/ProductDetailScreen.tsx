@@ -32,56 +32,19 @@ export const ProductDetailScreen = () => {
             imageAlt={"kit kat"}
             isFavorite={true}
           />
-          <ProductInfoSection />
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection />
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection />
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection />
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
-          <ProductInfoSection></ProductInfoSection>
+          {/* Se ve sólo en desktop*/}
+          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
         </div>
 
         <div className="lg:w-[25%] ">
           <ProductActionSection />
         </div>
       </div>
+
+      {/* Se ve sólo en Mobile */}
+      <div className="flex lg:hidden"> <ProductInfoSection /> </div>
+
+
     </div>
   );
 };
