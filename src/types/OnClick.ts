@@ -1,3 +1,3 @@
 export interface ShareProps {
-    onClick?: () => void; 
+  onClick?: () => void;
 }

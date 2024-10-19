@@ -1,7 +1,9 @@
+
 import React from 'react';
 import { PriceperquantityProps } from '@/types/';
 
-export const Priceperquantity= ({ prices }: PriceperquantityProps)=> {
+
+export const Priceperquantity = ({ prices }: PriceperquantityProps) => {
   return (
     <div className="flex justify-evenly lg:justify-around ">
       {prices.map((price, index) => (
@@ -12,4 +14,4 @@ export const Priceperquantity= ({ prices }: PriceperquantityProps)=> {
       ))}
     </div>
   );
-}
+};

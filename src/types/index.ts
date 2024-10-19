@@ -1,3 +1,4 @@
+
 //Props Variantes
 export * from "./VariantesProps";
 
@@ -12,3 +13,6 @@ export * from "./CardOfDealsProps";
 export * from "./OnlyClassNameProps";
 export * from "./ButtonProps";
 export * from "./useArrowsControlProps";
+
+//Profile interface
+export * from "./ProfileProps";
