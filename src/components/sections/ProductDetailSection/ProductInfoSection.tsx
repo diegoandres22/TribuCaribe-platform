@@ -1,22 +1,21 @@
-'use client'
+"use client";
 import React from "react";
 import { ProductFeatures } from "@/components/elements";
 
 export const ProductInfoSection = () => {
-
   const productData = [
-    { name: 'Marca', role: 'Rolex' },
-    { name: 'Modelo', role: 'Camaro' },
-    { name: 'Color', role: 'Beige' },
-    { name: 'Ciudad', role: 'New York' },
-    { name: 'Precio', role: '$50,000' },
-    { name: 'Año', role: '2020' },
-    { name: 'Kilometraje', role: '15,000 km' },
-    { name: 'Estado', role: 'Usado' },
-    { name: 'Marca', role: 'Rolex' },
-    { name: 'Precio', role: '$50,000' },
-    { name: 'Año', role: '2020' },
-    { name: 'Kilometraje', role: '15,000 km' },
+    { name: "Marca", role: "Rolex" },
+    { name: "Modelo", role: "Camaro" },
+    { name: "Color", role: "Beige" },
+    { name: "Ciudad", role: "New York" },
+    { name: "Precio", role: "$50,000" },
+    { name: "Año", role: "2020" },
+    { name: "Kilometraje", role: "15,000 km" },
+    { name: "Estado", role: "Usado" },
+    { name: "Marca", role: "Rolex" },
+    { name: "Precio", role: "$50,000" },
+    { name: "Año", role: "2020" },
+    { name: "Kilometraje", role: "15,000 km" },
   ];
 
   return (
@@ -27,7 +26,6 @@ export const ProductInfoSection = () => {
         <ProductFeatures data={productData.slice(0, 6)} />
         <ProductFeatures data={productData.slice(6, 20)} />
       </div>
-
     </div>
   );
 };

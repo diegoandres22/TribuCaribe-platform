@@ -1,5 +1,4 @@
-
-//Props para pasar productos al componente de ProductDetail 
+//Props para pasar productos al componente de ProductDetail
 export interface productsProps {
   image: string;
   name: string;
@@ -7,7 +6,6 @@ export interface productsProps {
   price: number;
   description: string;
 }
-
 
 //propr para tabla de características del producto
 interface ProductFeature {
@@ -18,7 +16,6 @@ export interface ProductFeaturesProps {
   data: ProductFeature[];
 }
 
-
 // Props para selección de cantidad
 type Price = {
   range: string;
@@ -27,7 +24,6 @@ type Price = {
 export interface PriceperquantityProps {
   prices: Price[];
 }
-
 
 //Props para sección ProductTitleAndImageSections
 export interface ProductTitleAndImageSectionProps {

@@ -27,3 +27,6 @@ export * from "./accountSection/profileSection/LogoSection";
 export * from "./accountSection/profileSection/InformationSection";
 export * from "./accountSection/profileSection/LocationSection";
 export * from "./accountSection/profileSection/VerifyEmailSection";
+
+//Sidebar en Account
+export * from "./accountSection/sidebarSection/SidebarSection";

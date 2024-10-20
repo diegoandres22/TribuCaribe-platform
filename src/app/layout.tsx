@@ -6,7 +6,11 @@ import Head from "next/head";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import DeviceDetector from "@/components/logicsFuntions/DeviceDetectorActions";
-import { FooterComponent, NavbarComponent } from "@/components/sections";
+import {
+  FooterComponent,
+  NavbarComponent,
+  SidebarSection,
+} from "@/components/sections";
 import { ClientNotistack } from "@/components/hooks/ClientNotiStack";
 
 export const metadata: Metadata = {
@@ -34,7 +38,10 @@ export default function RootLayout({
           <NextUIProvider>
             <ClientNotistack>
               <NavbarComponent />
-              {children}
+              <div className="flex">
+                <SidebarSection />
+                {children}
+              </div>
               <FooterComponent />
             </ClientNotistack>
           </NextUIProvider>
