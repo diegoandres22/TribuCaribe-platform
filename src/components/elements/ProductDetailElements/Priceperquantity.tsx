@@ -1,7 +1,5 @@
-
-import React from 'react';
-import { PriceperquantityProps } from '@/types/';
-
+import React from "react";
+import { PriceperquantityProps } from "@/types/";
 
 export const Priceperquantity = ({ prices }: PriceperquantityProps) => {
   return (
