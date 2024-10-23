@@ -34,10 +34,14 @@ export const ProductDetailScreen = () => {
           />
           {/* Se ve sólo en desktop*/}
           <div className="hidden lg:flex"> <ProductInfoSection /> </div>
+          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
+          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
+          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
+          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
         </div>
 
         <div className="lg:w-[25%] ">
-          <ProductActionSection />
+          <ProductActionSection isTop44={true} />
         </div>
       </div>
 
