@@ -26,7 +26,7 @@ export const ProductActionSection = ({ isTop44 }: { isTop44: boolean }) => {
   ];
 
   return (
-    <div className={`lg:sticky ${isTop44 ? 'lg:top-44' : 'lg:top-28'} lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto transition-all duration-600 ease-in-out`}>
+    <div className={`lg:sticky lg:top-${isTop44 ? '44' : '28'} lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto transition-all duration-500 ease-in-out`}>
       <Priceperquantity prices={priceData} />
 
       <a className="text-blue-600 text-xs ml-6 lg:ml-6" href="">
