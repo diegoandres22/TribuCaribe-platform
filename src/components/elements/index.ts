@@ -49,6 +49,3 @@ export * from "./ReusableElements/TermsAndCondit";
 export * from "./ProductDetailElements/PaymentsMetods";
 
 export * from "./ProductDetailElements/ProductFeatures";
-
-
-

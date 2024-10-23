@@ -27,22 +27,13 @@ export const PerfilTrigger: React.FC = () => {
             <p className="font-semibold">zoey@example.com</p>
           </DropdownItem>
           <DropdownItem key="Mi cuenta">
-            <Link href={"/account/profile"}>Perfil</Link>
+            <Link href={"/account/profile"}>Mi cuenta</Link>
           </DropdownItem>
-          <DropdownItem key="perfil">
-            <Link href={"404"}>Compras</Link>
-          </DropdownItem>
-          <DropdownItem key="creditos">
-            <Link href={"404"}>Preferencias</Link>
-          </DropdownItem>
-          <DropdownItem key="contrseña">
-            <Link href={"404"}>Carrito</Link>
+          <DropdownItem key="preferencias">
+            <Link href={"/404"}>Preferencias</Link>
           </DropdownItem>
           <DropdownItem key="favoritos">
-            <Link href={"404"}>Favoritos</Link>
-          </DropdownItem>
-          <DropdownItem key="carrito">
-            <Link href={"404"}>Contraseña</Link>
+            <Link href={"/404"}>Favoritos</Link>
           </DropdownItem>
           <DropdownItem key="logout" color="danger">
             Cerrar sesión

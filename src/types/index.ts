@@ -1,4 +1,3 @@
-
 //Props Variantes
 export * from "./VariantesProps";
 

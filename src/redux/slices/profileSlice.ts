@@ -19,7 +19,7 @@ const profileSlice = createSlice({
   initialState,
   reducers: {
     funcionEjemploo: (state) => {
-      state.loading = false
+      state.loading = false;
     },
   },
   extraReducers: (builder) => {
