@@ -1,3 +1,4 @@
+'use client'
 import {
   ProductActionSection,
   ProductInfoSection,
@@ -9,8 +10,15 @@ import data from "./../../../../public/LightningDeals/LightningDeals.json";
 import React from "react";
 import { Stars } from "@/components/elements";
 import { Link } from "@nextui-org/react";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 export const ProductDetailScreen = () => {
+
+  const isScrollingUpOrAtTop = useSelector(
+    (state: RootState) => state.scroll.isScrollingUpOrAtTop
+  );
+
   return (
     <div className="flex flex-col mt-48 px-6 bg-bagwite ">
       <div className="flex flex-col lg:flex-row justify-center">
@@ -43,7 +51,7 @@ export const ProductDetailScreen = () => {
         </div>
 
         <div className="lg:w-[25%] ">
-          <ProductActionSection isTop44={true} />
+          <ProductActionSection isTop44={isScrollingUpOrAtTop} />
         </div>
       </div>
 
