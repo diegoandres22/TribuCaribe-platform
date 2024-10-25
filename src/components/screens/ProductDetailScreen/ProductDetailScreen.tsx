@@ -30,9 +30,14 @@ export const ProductDetailScreen = () => {
             isFavorite={true}
           />
           {/* Se ve sólo en desktop*/}
-          <div className="hidden lg:flex">
-            {" "}
-            <ProductInfoSection />{" "}
+          <div className="hidden lg:flex flex-col">
+            
+            <ProductInfoSection />
+            <ProductInfoSection />
+            <ProductInfoSection />
+            <ProductInfoSection />
+            <ProductInfoSection />
+            <ProductInfoSection />
           </div>
         </div>
 
@@ -42,7 +47,7 @@ export const ProductDetailScreen = () => {
       </div>
 
       {/* Se ve sólo en Mobile */}
-      <div className="flex flex-col lg:hidden bg-bagwite">
+      <div className="flex lg:hidden bg-bagwite">
 
         <ProductInfoSection />
       
