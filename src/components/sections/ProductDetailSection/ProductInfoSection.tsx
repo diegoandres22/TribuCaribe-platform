@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { ProductFeatures, ShippingInformation } from "@/components/elements";
-import { Share } from "@/components/elements/ReusableElements/Share";
 
 export const ProductInfoSection = () => {
   const productData = [
