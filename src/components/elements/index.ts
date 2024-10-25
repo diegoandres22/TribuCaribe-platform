@@ -47,5 +47,8 @@ export * from "./ReusableElements/CantityOfProduct";
 export * from "./ProductDetailElements/Buttons";
 export * from "./ReusableElements/TermsAndCondit";
 export * from "./ProductDetailElements/PaymentsMetods";
-
 export * from "./ProductDetailElements/ProductFeatures";
+export * from "./ProductDetailElements/ShippingInformation";
+export * from "./ProductDetailElements/IdCopy";
+
+

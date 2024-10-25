@@ -3,6 +3,7 @@ import React from "react";
 import {
   Buttons,
   CantityOfProduct,
+  IdCopy,
   PaymentsMetods,
   Price,
   Priceperquantity,
@@ -32,6 +33,7 @@ export const ProductActionSection = () => {
     { id: 2, nombre: "Con Leche", imagen: data[0].image },
     { id: 3, nombre: "Americano", imagen: data[0].image },
   ];
+  const _ID_ = "235542"
 
   return (
     <div className={`lg:sticky ${isScrollingUpOrAtTop ? 'lg:top-44' : 'lg:top-28'} lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto transition-all duration-700 ease-in-out bg-bagwite`}>
@@ -50,6 +52,10 @@ export const ProductActionSection = () => {
       <Buttons />
       <TermsAndCondit />
       <PaymentsMetods />
+
+      <div className="hidden h-full justify-center lg:flex ">
+        <IdCopy id={_ID_} ></IdCopy>
+      </div>
     </div>
   );
 };

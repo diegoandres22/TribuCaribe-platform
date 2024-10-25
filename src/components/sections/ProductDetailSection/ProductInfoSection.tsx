@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { ProductFeatures } from "@/components/elements";
+import { ProductFeatures, ShippingInformation } from "@/components/elements";
+import { Share } from "@/components/elements/ReusableElements/Share";
 
 export const ProductInfoSection = () => {
   const productData = [
@@ -26,6 +27,8 @@ export const ProductInfoSection = () => {
         <ProductFeatures data={productData.slice(0, 6)} />
         <ProductFeatures data={productData.slice(6, 20)} />
       </div>
+
+      <ShippingInformation/>
     </div>
   );
 };
