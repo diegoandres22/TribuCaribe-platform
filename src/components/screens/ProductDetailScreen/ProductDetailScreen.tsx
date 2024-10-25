@@ -15,9 +15,6 @@ import { RootState } from "@/redux/store";
 
 export const ProductDetailScreen = () => {
 
-  const isScrollingUpOrAtTop = useSelector(
-    (state: RootState) => state.scroll.isScrollingUpOrAtTop
-  );
 
   return (
     <div className="flex flex-col mt-44 lg:mt-48 px-6 w-screen bg-bagwite lg:bg-transparent mb-2 ">
@@ -48,7 +45,7 @@ export const ProductDetailScreen = () => {
         </div>
 
         <div className="lg:w-[25%] ">
-          <ProductActionSection isTop44={isScrollingUpOrAtTop} />
+          <ProductActionSection  />
         </div>
       </div>
 
