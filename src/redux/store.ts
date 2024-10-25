@@ -3,12 +3,14 @@ import { setupListeners } from "@reduxjs/toolkit/query";
 import ejemploSlice from "./slices/ejemploSlice";
 import deviceReducer from "./slices/DeviceSlice";
 import profileSlice from "./slices/profileSlice";
+import scrollReducer from "./slices/ScrollSlice";
 
 export const store = configureStore({
   reducer: {
     ejemplo: ejemploSlice,
     device: deviceReducer,
     profile: profileSlice,
+    scroll: scrollReducer,
   },
 });
 
