@@ -12,14 +12,11 @@ import { Link } from "@nextui-org/react";
 
 export const ProductDetailScreen = () => {
   return (
-    <div className="flex flex-col mt-48 px-6 bg-bagwite ">
-      <div className="flex flex-col lg:flex-row justify-center">
+    <div className="flex flex-col mt-44 lg:mt-48 px-6 w-screen bg-bagwite lg:bg-transparent mb-2 ">
+      <div className="flex flex-col lg:flex-row justify-center ">
         {/* Sección de Título e Imagen */}
-        <div className="flex flex-col lg:w-[60%] lg:rounded-xl lg:shadow-large lg:py-2 ">
-          <div
-            className="flex justify-end items-center lg:mr-8
-          "
-          >
+        <div className="flex flex-col lg:w-[60%] lg:rounded-xl lg:shadow-large p-2 bg-bagwite">
+          <div className="flex justify-end items-center lg:mr-8 " >
             <Link href="#">
               <Stars rating={2} />
               <p className="text-xs text-ColorTextGrey">(8)</p>
@@ -45,9 +42,10 @@ export const ProductDetailScreen = () => {
       </div>
 
       {/* Se ve sólo en Mobile */}
-      <div className="flex lg:hidden">
-        {" "}
-        <ProductInfoSection />{" "}
+      <div className="flex flex-col lg:hidden bg-bagwite">
+
+        <ProductInfoSection />
+      
       </div>
     </div>
   );
