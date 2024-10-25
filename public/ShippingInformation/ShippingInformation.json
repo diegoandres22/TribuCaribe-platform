@@ -1,0 +1,21 @@
+[
+    {
+      "ID": 1,
+      "Image": "/ShippingInformation/empaque.png",
+      "nombre": "Empaque",
+      "url": "404"
+    },
+    {
+      "ID": 2,
+      "Image": "/ShippingInformation/caja.png",
+      "nombre": "Caja",
+      "url": "404"
+    },
+    {
+      "ID": 3,
+      "Image": "/ShippingInformation/pallet.png",
+      "nombre": "Pallet",
+      "url": "404"
+    }
+  ]
+  
