@@ -12,8 +12,15 @@ import {
 import { Divider } from "@nextui-org/react";
 
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 export const ProductActionSection = () => {
+
+  const isScrollingUpOrAtTop = useSelector(
+    (state: RootState) => state.scroll.isScrollingUpOrAtTop
+  );
+
   const priceData = [
     { range: "1-50", amount: "$10" },
     { range: "50-100", amount: "$9" },
@@ -26,9 +33,7 @@ export const ProductActionSection = () => {
   ];
 
   return (
-
-    <div className={`lg:sticky ${isTop44 ? 'lg:top-44' : 'lg:top-28'} lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto transition-all duration-700 ease-in-out bg-bagwite`}>
-
+    <div className={`lg:sticky ${isScrollingUpOrAtTop ? 'lg:top-44' : 'lg:top-28'} lg:pt-4 lg:rounded-xl lg:shadow-large lg:ml-4 lg:w-[30vw] 2xl:w-auto transition-all duration-700 ease-in-out bg-bagwite`}>
       <Priceperquantity prices={priceData} />
 
       <a className="text-blue-600 text-xs ml-6 lg:ml-6" href="">
