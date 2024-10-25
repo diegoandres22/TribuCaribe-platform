@@ -1,4 +1,3 @@
-'use client'
 import {
   ProductActionSection,
   ProductInfoSection,
@@ -10,12 +9,8 @@ import data from "./../../../../public/LightningDeals/LightningDeals.json";
 import React from "react";
 import { Stars } from "@/components/elements";
 import { Link } from "@nextui-org/react";
-import { useSelector } from "react-redux";
-import { RootState } from "@/redux/store";
 
 export const ProductDetailScreen = () => {
-
-
   return (
     <div className="flex flex-col mt-44 lg:mt-48 px-6 w-screen bg-bagwite lg:bg-transparent mb-2 ">
       <div className="flex flex-col lg:flex-row justify-center ">
@@ -35,17 +30,14 @@ export const ProductDetailScreen = () => {
             isFavorite={true}
           />
           {/* Se ve sólo en desktop*/}
-
-          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
-          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
-          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
-          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
-          <div className="hidden lg:flex"> <ProductInfoSection /> </div>
-
+          <div className="hidden lg:flex">
+            {" "}
+            <ProductInfoSection />{" "}
+          </div>
         </div>
 
         <div className="lg:w-[25%] ">
-          <ProductActionSection  />
+          <ProductActionSection />
         </div>
       </div>
 
