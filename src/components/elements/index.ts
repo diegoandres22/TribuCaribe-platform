@@ -50,5 +50,6 @@ export * from "./ProductDetailElements/PaymentsMetods";
 export * from "./ProductDetailElements/ProductFeatures";
 export * from "./ProductDetailElements/ShippingInformation";
 export * from "./ProductDetailElements/IdCopy";
+export * from "./ProductDetailElements/Description";
 
 
