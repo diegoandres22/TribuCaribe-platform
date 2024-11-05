@@ -14,8 +14,8 @@ export const CardOfDeals: React.FC<CardOfDealsProps> = ({
         <Image
           src={imageSrc}
           alt={brand}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           className="w-full h-full"
         />
       </div>

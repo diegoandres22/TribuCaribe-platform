@@ -11,7 +11,7 @@ import { useArrowControl } from "@/components/hooks";
 export const LightningDeals = () => {
   const fatherDesktop = " md:mt-10 lg:mt-0 md:h-auto md:max:h-96";
   const isMobile = useAppSelector((state) => state.device.isMobile);
-  const items = isMobile ? 2 : 5;
+  const items = isMobile ? 2 : 4;
 
   const { settings, handleLinkClick } = useArrowControl({
     totalSlides: data.length,
