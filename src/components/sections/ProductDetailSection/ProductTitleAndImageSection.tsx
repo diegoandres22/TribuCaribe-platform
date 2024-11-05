@@ -57,8 +57,8 @@ export const ProductTitleAndImageSection: React.FC<
         <Image
           src={imageSrc}
           alt={imageAlt}
-          layout="fill"
-          objectFit="contain"
+          fill
+          style={{ objectFit: 'contain' }}
           className="w-full h-full"
         />
       </div>

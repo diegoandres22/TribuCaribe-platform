@@ -22,17 +22,17 @@ export const LightningDeals = () => {
     <div
       className={`w-screen  ${fatherDesktop} flex justify-center items-center `}
     >
-      <div className="slider-container bg-white h-auto lg:w-[75%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 flex flex-col gap-2">
-        <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-center md:px-6 px-3 ">
+      <div className="slider-container bg-white h-auto lg:w-[75%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative 2xl:pl-4 xl:pl-0 p-4 md:px-10 flex flex-col ">
+        <div className=" left-0 top-0 md:w-2/3 w-full flex justify-start items-center md:px-6 px-3 ">
           <h2 className="md:text-lg  font-bold ">Ofertas relámpago</h2>
           <ThunderAnimation className="top-0 relative md:top-0 w-5 md:w-7 h-5 md:h-7 mx-2" />
         </div>
         <Slider {...settings} className="w-full">
           {data.map((item) => {
-            return (
+            return ( 
               <div
                 key={item.ID}
-                className={`rounded-3xl relative lg:p-32  p-14 lg:h-96 h-48`}
+                className={`rounded-3xl relative xl:p-32  p-14 xl:h-96 h-48`}
               >
                 <Link href={"/product/1"} onClick={handleLinkClick}>
                   <CardOfproduct
