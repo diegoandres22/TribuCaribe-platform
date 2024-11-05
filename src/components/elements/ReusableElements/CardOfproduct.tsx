@@ -12,7 +12,7 @@ export const CardOfproduct: React.FC<productsProps> = ({
 }) => {
   return (
     <div
-      className={`lg:w-60 lg:h-80 sm:w-32 sm:h-44 w-32 bg-white md:shadow-lg shadow-md rounded-lg absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center flex-col text-center lg:hover:scale-95 transition-all duration-300 p-3 `}
+      className={`2xl:w-52 2xl:h-80 xl:w-44 xl:h-64 sm:w-32 sm:h-44 w-32 bg-white md:shadow-lg shadow-md rounded-lg absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center flex-col text-center sm:hover:scale-95 transition-all duration-300 p-3 `}
       onMouseDown={(e) => {
         e.preventDefault();
       }}
@@ -36,7 +36,7 @@ export const CardOfproduct: React.FC<productsProps> = ({
         </p>
       </div>
       {percent && (
-        <div className="w-10 h-10 rounded-full p-1 absolute -top-2 -right-3 flex justify-center items-center">
+        <div className="w-10 h-10 rounded-full p-1 absolute -top-2 right-0 flex justify-center items-center z-30">
           <h2 className="text-xs text-white z-10 bg-red-600 p-1 rounded-full">
             {percent}%
           </h2>
