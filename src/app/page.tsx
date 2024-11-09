@@ -1,9 +1,5 @@
-import Inicio from "@/components/screens/inicio/Inicio";
+import { Inicio } from "@/components/screens";
 
 export default function Home() {
-  return (
-    <div className="">
-      <Inicio></Inicio>
-    </div>
-  );
+  return <Inicio />;
 }

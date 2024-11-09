@@ -3,6 +3,6 @@ export const Search = (
   inputRef: React.RefObject<HTMLInputElement>,
 ) => {
   if (e.code === "Enter" && inputRef.current?.value !== "") {
-    location.href = `/search?q=${inputRef.current?.value}`;
+    location.href = `/search?query=${inputRef.current?.value}`;
   }
 };

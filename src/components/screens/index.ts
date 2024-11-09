@@ -1,11 +1,15 @@
-// export * from 'ruta del archivo'
+//Inicio
+export * from "./inicio/Inicio";
 
 //authSection
-export * from "@/components/screens/authScreen/RegisterForm";
-export * from "@/components/screens/authScreen/LoginForm";
+export * from "./authScreen/LoginForm";
+export * from "./authScreen/RegisterForm";
 
 // Product Detail
-export * from "@/components/screens/ProductDetailScreen/ProductDetailScreen";
+export * from "./ProductDetailScreen/ProductDetailScreen";
 
 // Account/Profile
-export * from "@/components/screens/accountScreen/profileScreen/ProfileScreen";
+export * from "./accountScreen/ProfileScreen";
+
+// Search
+export * from "./searchScreen/SearchScreen";
