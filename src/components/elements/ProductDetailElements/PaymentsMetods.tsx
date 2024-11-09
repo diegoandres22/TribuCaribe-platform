@@ -1,5 +1,6 @@
 import {
   Image,
+  Link,
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -15,7 +16,9 @@ export const PaymentsMetods = () => {
         <h3 className="font-bold ">Métodos de pago</h3>
         <Popover placement="right">
           <PopoverTrigger>
-            <CiCircleQuestion className="mx-2 text-xl text-blue-600" />
+            <button type="button" className="mx-2 text-xl text-blue-600 focus:outline-none"            >
+              <CiCircleQuestion />
+            </button>
           </PopoverTrigger>
           <PopoverContent>
             <div className="px-2 py-2">
