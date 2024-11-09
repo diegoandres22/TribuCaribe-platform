@@ -1,10 +1,13 @@
 import {
+  LightningDeals,
   ProductActionSection,
   ProductInfoSection,
   ProductTitleAndImageSection,
 } from "@/components/sections";
 
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
+import data2 from "./../../../../public/LightningDeals/LightningDeals2.json";
+import data3 from "./../../../../public/LightningDeals/LightningDeals3.json";
 
 import React from "react";
 import { IdCopy, Stars } from "@/components/elements";
@@ -51,10 +54,21 @@ export const ProductDetailScreen = () => {
         </div>
 
       </div>
-      <div className="flex w-screen justify-end pr-4 sm:pr-8 lg:hidden ">
+      <div className="flex w-screen justify-end pr-4 sm:pr-8 lg:hidden mb-2">
         <IdCopy id={_ID_} ></IdCopy>
       </div>
-
+      <LightningDeals dealsData={data}
+        showAnimation={false}
+        title="Productos símilares" />
+      <br />
+      <LightningDeals dealsData={data2}
+        showAnimation={false}
+        title="Productos del mismo fabricante" />
+      <br />
+      <LightningDeals dealsData={data3}
+        showAnimation={false}
+        title="Otros también compraron" />
+      <br />
     </div>
   );
 };

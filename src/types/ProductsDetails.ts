@@ -49,3 +49,7 @@ export interface StarsProps {
 export interface IdCopyProps {
   id: number | string; // Definimos que el id puede ser un número o un string
 }
+
+export type DescriptionProps = {
+  text: string;
+};

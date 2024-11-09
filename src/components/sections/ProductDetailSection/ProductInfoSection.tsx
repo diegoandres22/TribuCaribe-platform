@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ProductFeatures, ShippingInformation } from "@/components/elements";
+import { Description, ProductFeatures, ShippingInformation } from "@/components/elements";
 
 export const ProductInfoSection = () => {
   const productData = [
@@ -26,8 +26,9 @@ export const ProductInfoSection = () => {
         <ProductFeatures data={productData.slice(0, 6)} />
         <ProductFeatures data={productData.slice(6, 20)} />
       </div>
-
-      <ShippingInformation/>
+      <Description text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus eos sequi autem provident nemo, nisi sapiente dolorem praesentium inventore eligendi numquam fugiat non voluptatibus officiis a distinctio, ea reiciendis!"}/>
+      <ShippingInformation />
+      
     </div>
   );
 };
