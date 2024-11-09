@@ -1,6 +1,5 @@
 import {
   Image,
-  Link,
   Popover,
   PopoverContent,
   PopoverTrigger,

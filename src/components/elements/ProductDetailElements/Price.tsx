@@ -1,6 +1,5 @@
 
 import React from "react";
-import Link from "next/link";
 import { CiCircleQuestion } from "react-icons/ci";
 import { Popover, PopoverTrigger, PopoverContent } from "@nextui-org/react";
 
