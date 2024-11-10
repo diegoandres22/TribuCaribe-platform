@@ -23,8 +23,8 @@ export const SearchScreen = () => {
     }
 
     return (
-        <div className='mt-40 w-full flex flex-col items-center'>
-            <Suspense fallback={<div>Cargando...</div>}>
+        <div className='mt-40 w-full flex flex-col items-center search-container'>
+            <Suspense fallback={<div style={{ color: 'blue', fontSize: '20px' }}>Cargando...</div>} >
                 <ResultsAndOrder searchType={searchType} slug={slug as string} />
             </Suspense>
         </div>
