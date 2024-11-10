@@ -53,3 +53,6 @@ export * from "./ProductDetailElements/IdCopy";
 export * from "./ProductDetailElements/Description";
 
 
+
+//Details of product
+export * from "./ReusableElements/SpinnerSuspense";
