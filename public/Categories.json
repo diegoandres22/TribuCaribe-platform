@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Dulces",
+    "slug": "Dulces"
+  },
+  {
+    "id": 2,
+    "name": "Salados",
+    "slug": "Salados"
+  },
+  {
+    "id": 3,
+    "name": "Chocolates",
+    "slug": "Chocolates"
+  },
+  {
+    "id": 6,
+    "name": "Galletas",
+    "slug": "Galletas"
+  },
+  {
+    "id": 7,
+    "name": "Gomitas",
+    "slug": "Gomitas"
+  },
+  {
+    "id": 8,
+    "name": "Caramelos",
+    "slug": "Caramelos"
+  },
+  {
+    "id": 4,
+    "name": "Limpieza",
+    "slug": "Limpieza"
+  },
+  {
+    "id": 5,
+    "name": "Otros",
+    "slug": "Otros"
+  }
+]
