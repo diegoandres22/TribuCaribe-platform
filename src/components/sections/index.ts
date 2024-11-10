@@ -30,3 +30,6 @@ export * from "./accountSection/profileSection/VerifyEmailSection";
 
 //Sidebar en Account
 export * from "./accountSection/sidebarSection/SidebarSection";
+
+//SearchSections
+export * from "./SearchSections/ResultsAndOrder";

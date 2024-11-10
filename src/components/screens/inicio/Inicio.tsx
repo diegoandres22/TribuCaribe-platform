@@ -9,7 +9,7 @@ import {
 import React from "react";
 import data from "./../../../../public/LightningDeals/LightningDeals.json";
 
-const Inicio: React.FC = () => {
+export const Inicio: React.FC = () => {
   return (
     <div className="w-screen h-auto relative min-h-screen flex flex-col justify-center align-center overflow-x-hidden">
       <MainBanner />
@@ -23,5 +23,3 @@ const Inicio: React.FC = () => {
     </div>
   );
 };
-
-export default Inicio;
