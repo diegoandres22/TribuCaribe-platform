@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { ResultsAndOrder } from "@/components/sections";
 import { useSearchParams } from 'next/navigation';
 
@@ -24,7 +24,9 @@ export const SearchScreen = () => {
 
     return (
         <div className='mt-40 w-full flex flex-col items-center'>
-            <ResultsAndOrder searchType={searchType} slug={slug as string} />
+            <Suspense fallback={<div>Cargando...</div>}>
+                <ResultsAndOrder searchType={searchType} slug={slug as string} />
+            </Suspense>
         </div>
     );
 };
