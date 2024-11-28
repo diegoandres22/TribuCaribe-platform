@@ -2,6 +2,7 @@
 import React from "react";
 import { ResultsAndOrderProps } from "@/types";
 import { DropdownOrder } from "@/components/elements";
+import ProductsView from "@/components/elements/SearchElements/ProductsView";
 
 
 
@@ -9,7 +10,7 @@ export const ResultsAndOrder: React.FC<ResultsAndOrderProps> = ({ searchType, sl
 
 
     return (
-        <div className="w-full xl:px-8 flex flex-col items-center xl:bg-slate-500">
+        <div className="w-full xl:px-8 flex flex-col items-center ">
 
             <div className="flex w-11/12 justify-between ">
 
@@ -28,7 +29,7 @@ export const ResultsAndOrder: React.FC<ResultsAndOrderProps> = ({ searchType, sl
 
                 <DropdownOrder />
             </div>
-
+            <ProductsView></ProductsView>
         </div>
     );
 };

@@ -58,3 +58,4 @@ export * from "./ReusableElements/SpinnerSuspense";
 
 //Tienda de productos (search Elements)
 export * from "./SearchElements/DropdownOrder";
+export * from "./SearchElements/ProductsView";
