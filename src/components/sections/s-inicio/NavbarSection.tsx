@@ -34,7 +34,7 @@ export const NavbarComponent = () => {
       </div>
 
       <div
-        className={`${childrenTwomd} w-full h-20 flex align-center justify-start duration-500 transition-all absolute bottom-0 z-50 ${isScrollingUpOrAtTop ? "md:w-40 md:h-20 opacity-100" : ""
+        className={`${childrenTwomd} w-full h-20 flex align-center justify-start duration-500 transition-all absolute bottom-0 z-40 ${isScrollingUpOrAtTop ? "md:w-40 md:h-20 opacity-100" : ""
           }`}
       >
         <div

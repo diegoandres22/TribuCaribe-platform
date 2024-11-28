@@ -15,3 +15,7 @@ export * from "./useArrowsControlProps";
 
 //Profile interface
 export * from "./ProfileProps";
+
+
+//Tienda de productos (search)
+export * from "./StoreOfProducts";

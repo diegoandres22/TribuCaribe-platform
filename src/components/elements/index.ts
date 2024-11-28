@@ -52,7 +52,9 @@ export * from "./ProductDetailElements/ShippingInformation";
 export * from "./ProductDetailElements/IdCopy";
 export * from "./ProductDetailElements/Description";
 
-
-
 //Details of product
 export * from "./ReusableElements/SpinnerSuspense";
+
+
+//Tienda de productos (search Elements)
+export * from "./SearchElements/DropdownOrder";
