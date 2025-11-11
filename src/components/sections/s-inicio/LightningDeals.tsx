@@ -67,7 +67,7 @@ interface LightningDealsComponentProps extends LightningDealsProps {
 
 export const LightningDeals: React.FC<LightningDealsComponentProps> = ({
   dealsData,
-  showAnimation,
+  // showAnimation,
   title,
 }) => {
   const fatherDesktop = " md:mt-10 lg:mt-0 md:h-auto md:max:h-96";
