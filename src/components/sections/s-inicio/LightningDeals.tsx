@@ -51,7 +51,7 @@
 //   );
 // };
 "use client";
-import { ThunderAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
+// import { ThunderAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
 import React from "react";
 import Slider from "react-slick";
 import { useAppSelector } from "@/redux/hooks";
@@ -86,9 +86,9 @@ export const LightningDeals: React.FC<LightningDealsComponentProps> = ({
       <div className="slider-container bg-white h-auto lg:w-[75%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative 2xl:pl-4 xl:pl-0 p-4 md:px-10 flex flex-col">
         <div className="left-0 top-0 md:w-2/3 w-full flex justify-start items-center md:px-6 px-3">
           <h2 className="md:text-lg font-bold">{title}</h2>
-          {showAnimation && (
-            <ThunderAnimation className="top-0 relative md:top-0 w-5 md:w-7 h-5 md:h-7 mx-2" />
-          )}
+          {/* {showAnimation && (
+            // <ThunderAnimation className="top-0 relative md:top-0 w-5 md:w-7 h-5 md:h-7 mx-2" />
+          )} */}
         </div>
         <Slider {...settings} className="w-full">
           {dealsData.map((item) => (

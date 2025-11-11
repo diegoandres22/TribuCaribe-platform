@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import data from "./../../../../public/hotCategories/hotCategories.json";
 import * as Icons from "./../../../../public/hotCategories/";
-import { FireAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
+// import { FireAnimation } from "@/components/elements/ReusableElements/FireReusalbe";
 import Link from "next/link";
 import { useAppSelector } from "@/redux/hooks";
 
@@ -40,7 +40,7 @@ export const HotCategories = () => {
       <div className="slider-container bg-white h-auto lg:w-[70%] md:w-[80%] w-[90%] rounded-3xl shadow-2xl relative p-4 md:px-10 ">
         <div className=" left-0 top-0 md:w-1/2 w-full flex justify-start items-center md:px-6 px-3 ">
           <h2 className="md:text-lg  font-bold ">Categorías más buscadas</h2>
-          <FireAnimation className="-top-1 relative w-5 md:w-7 h-5 md:h-7 lg:mx-2" />
+          {/* <FireAnimation className="-top-1 relative w-5 md:w-7 h-5 md:h-7 lg:mx-2" /> */}
         </div>
         <Slider {...settings} className="w-full">
           {data.map((item) => {
